@@ -3,36 +3,41 @@ const fs = require("fs");
 
 const srcDir = path.resolve(__dirname, "src");
 
-const entries = {};
-fs.readdirSync(srcDir).forEach((file) => {
-    if (file.endsWith(".js")) {
-        const name = path.basename(file, ".js");
-        entries[name] = path.join(srcDir, file);
-    }
-});
+const entries = fs.readdirSync(srcDir).filter((f) => f.endsWith(".js"));
 
-module.exports = {
-    mode: "production",
-    entry: entries,
-    output: {
-        path: path.resolve(__dirname, "dist"),
-        filename: "[name].umd.js",
-        library: "umdLodash[name]",
-        libraryTarget: "umd",
-        globalObject: "this",
-        umdNamedDefine: true,
-        clean: true,
-    },
-    module: {
-        rules: [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                use: "babel-loader",
+const distDir = path.resolve(__dirname, "dist");
+if (fs.existsSync(distDir)) {
+    fs.rmSync(distDir, { recursive: true, force: true });
+}
+
+module.exports = entries.map((file) => {
+    const name = path.basename(file, ".js");
+
+    return {
+        mode: "production",
+        entry: path.join(srcDir, file),
+        output: {
+            path: path.resolve(__dirname, "dist"),
+            filename: `${name}.umd.js`,
+            library: {
+                name: `umd_lodash_${name}`,
+                type: "umd",
+                export: "default",
+                umdNamedDefine: true,
             },
-        ],
-    },
-    resolve: {
-        extensions: [".js"],
-    },
-};
+            globalObject: "this",
+        },
+        module: {
+            rules: [
+                {
+                    test: /\.js$/,
+                    exclude: /node_modules/,
+                    use: "babel-loader",
+                },
+            ],
+        },
+        resolve: {
+            extensions: [".js"],
+        },
+    };
+});

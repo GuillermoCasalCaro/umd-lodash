@@ -10,19 +10,32 @@ if (!fs.existsSync(lodashDir)) {
     );
 }
 
-if (!fs.existsSync(srcDir)) {
+const clearSRC = () => {
+    fs.readdirSync(srcDir).forEach((file) => {
+        const filePath = path.join(srcDir, file);
+        if (fs.statSync(filePath).isFile()) {
+            fs.unlinkSync(filePath);
+        }
+    });
+};
+
+if (fs.existsSync(srcDir)) {
+    clearSRC();
+} else {
     fs.mkdirSync(srcDir);
 }
 
 fs.readdirSync(lodashDir).forEach((file) => {
     const filePath = path.join(lodashDir, file);
     const stat = fs.statSync(filePath);
+    const excludedFiles = new Set(["fp.js", "function.js"]);
 
     if (
         stat.isFile() &&
         file.endsWith(".js") &&
+        !file.endsWith(".min.js") &&
         !file.startsWith("_") &&
-        file !== "index.js"
+        !excludedFiles.has(file)
     ) {
         const funcName = path.basename(file, ".js");
         const content = `import ${funcName} from "lodash/${funcName}";\nexport default ${funcName};\n`;

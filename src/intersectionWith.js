@@ -1,2 +1,2 @@
-import intersectionWith from "lodash/intersectionWith";
-export default intersectionWith;
+const intersectionWith = require("lodash/intersectionWith");
+module.exports = intersectionWith;

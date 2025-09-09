@@ -1,2 +1,2 @@
-import isString from "lodash/isString";
-export default isString;
+const isString = require("lodash/isString");
+module.exports = isString;

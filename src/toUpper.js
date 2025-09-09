@@ -1,2 +1,2 @@
-import toUpper from "lodash/toUpper";
-export default toUpper;
+const toUpper = require("lodash/toUpper");
+module.exports = toUpper;

@@ -1,2 +1,2 @@
-import random from "lodash/random";
-export default random;
+const random = require("lodash/random");
+module.exports = random;

@@ -1,2 +1,2 @@
-import forInRight from "lodash/forInRight";
-export default forInRight;
+const forInRight = require("lodash/forInRight");
+module.exports = forInRight;

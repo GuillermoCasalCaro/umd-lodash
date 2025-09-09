@@ -1,2 +1,2 @@
-import plant from "lodash/plant";
-export default plant;
+const plant = require("lodash/plant");
+module.exports = plant;

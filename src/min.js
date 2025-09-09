@@ -1,2 +1,2 @@
-import min from "lodash/min";
-export default min;
+const min = require("lodash/min");
+module.exports = min;

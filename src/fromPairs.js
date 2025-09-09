@@ -1,2 +1,2 @@
-import fromPairs from "lodash/fromPairs";
-export default fromPairs;
+const fromPairs = require("lodash/fromPairs");
+module.exports = fromPairs;

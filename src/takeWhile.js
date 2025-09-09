@@ -1,2 +1,2 @@
-import takeWhile from "lodash/takeWhile";
-export default takeWhile;
+const takeWhile = require("lodash/takeWhile");
+module.exports = takeWhile;

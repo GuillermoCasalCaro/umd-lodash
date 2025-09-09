@@ -1,2 +1,2 @@
-import stubString from "lodash/stubString";
-export default stubString;
+const stubString = require("lodash/stubString");
+module.exports = stubString;

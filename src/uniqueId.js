@@ -1,2 +1,2 @@
-import uniqueId from "lodash/uniqueId";
-export default uniqueId;
+const uniqueId = require("lodash/uniqueId");
+module.exports = uniqueId;

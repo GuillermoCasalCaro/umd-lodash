@@ -1,2 +1,2 @@
-import unary from "lodash/unary";
-export default unary;
+const unary = require("lodash/unary");
+module.exports = unary;

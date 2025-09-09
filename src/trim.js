@@ -1,2 +1,2 @@
-import trim from "lodash/trim";
-export default trim;
+const trim = require("lodash/trim");
+module.exports = trim;

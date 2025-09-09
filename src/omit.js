@@ -1,2 +1,2 @@
-import omit from "lodash/omit";
-export default omit;
+const omit = require("lodash/omit");
+module.exports = omit;

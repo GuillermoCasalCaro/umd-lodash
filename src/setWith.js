@@ -1,2 +1,2 @@
-import setWith from "lodash/setWith";
-export default setWith;
+const setWith = require("lodash/setWith");
+module.exports = setWith;

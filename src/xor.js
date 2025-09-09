@@ -1,2 +1,2 @@
-import xor from "lodash/xor";
-export default xor;
+const xor = require("lodash/xor");
+module.exports = xor;

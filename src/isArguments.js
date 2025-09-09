@@ -1,2 +1,2 @@
-import isArguments from "lodash/isArguments";
-export default isArguments;
+const isArguments = require("lodash/isArguments");
+module.exports = isArguments;

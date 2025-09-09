@@ -1,2 +1,2 @@
-import invoke from "lodash/invoke";
-export default invoke;
+const invoke = require("lodash/invoke");
+module.exports = invoke;

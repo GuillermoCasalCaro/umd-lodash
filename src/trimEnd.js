@@ -1,2 +1,2 @@
-import trimEnd from "lodash/trimEnd";
-export default trimEnd;
+const trimEnd = require("lodash/trimEnd");
+module.exports = trimEnd;

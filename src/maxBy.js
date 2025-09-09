@@ -1,2 +1,2 @@
-import maxBy from "lodash/maxBy";
-export default maxBy;
+const maxBy = require("lodash/maxBy");
+module.exports = maxBy;

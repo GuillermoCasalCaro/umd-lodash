@@ -1,2 +1,2 @@
-import delay from "lodash/delay";
-export default delay;
+const delay = require("lodash/delay");
+module.exports = delay;

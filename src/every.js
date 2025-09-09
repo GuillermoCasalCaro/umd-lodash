@@ -1,2 +1,2 @@
-import every from "lodash/every";
-export default every;
+const every = require("lodash/every");
+module.exports = every;

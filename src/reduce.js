@@ -1,2 +1,2 @@
-import reduce from "lodash/reduce";
-export default reduce;
+const reduce = require("lodash/reduce");
+module.exports = reduce;

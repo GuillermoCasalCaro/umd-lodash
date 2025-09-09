@@ -1,2 +1,2 @@
-import zipWith from "lodash/zipWith";
-export default zipWith;
+const zipWith = require("lodash/zipWith");
+module.exports = zipWith;

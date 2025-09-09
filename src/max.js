@@ -1,2 +1,2 @@
-import max from "lodash/max";
-export default max;
+const max = require("lodash/max");
+module.exports = max;

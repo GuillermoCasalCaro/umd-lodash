@@ -1,2 +1,2 @@
-import drop from "lodash/drop";
-export default drop;
+const drop = require("lodash/drop");
+module.exports = drop;

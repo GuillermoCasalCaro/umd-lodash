@@ -1,2 +1,2 @@
-import remove from "lodash/remove";
-export default remove;
+const remove = require("lodash/remove");
+module.exports = remove;

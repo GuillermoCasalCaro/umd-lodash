@@ -1,2 +1,2 @@
-import create from "lodash/create";
-export default create;
+const create = require("lodash/create");
+module.exports = create;

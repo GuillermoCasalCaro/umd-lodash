@@ -1,2 +1,2 @@
-import toIterator from "lodash/toIterator";
-export default toIterator;
+const toIterator = require("lodash/toIterator");
+module.exports = toIterator;

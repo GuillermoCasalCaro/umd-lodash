@@ -1,2 +1,2 @@
-import union from "lodash/union";
-export default union;
+const union = require("lodash/union");
+module.exports = union;

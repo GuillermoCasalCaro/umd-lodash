@@ -1,2 +1,2 @@
-import core from "lodash/core";
-export default core;
+const core = require("lodash/core");
+module.exports = core;

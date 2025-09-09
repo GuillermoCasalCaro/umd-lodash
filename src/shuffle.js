@@ -1,2 +1,2 @@
-import shuffle from "lodash/shuffle";
-export default shuffle;
+const shuffle = require("lodash/shuffle");
+module.exports = shuffle;

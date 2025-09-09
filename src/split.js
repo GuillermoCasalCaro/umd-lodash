@@ -1,2 +1,2 @@
-import split from "lodash/split";
-export default split;
+const split = require("lodash/split");
+module.exports = split;

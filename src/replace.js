@@ -1,2 +1,2 @@
-import replace from "lodash/replace";
-export default replace;
+const replace = require("lodash/replace");
+module.exports = replace;

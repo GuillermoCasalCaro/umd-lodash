@@ -12,7 +12,7 @@ if (fs.existsSync(distDir)) {
 
 module.exports = entries.map((file) => {
     const name = path.basename(file, ".js");
-
+    console.log("Building " + name);
     return {
         mode: "production",
         entry: path.join(srcDir, file),
@@ -24,7 +24,7 @@ module.exports = entries.map((file) => {
                 type: "umd",
                 umdNamedDefine: true,
             },
-            libraryExport: undefined,
+            // libraryExport: undefined,
             globalObject: "this",
         },
         module: {

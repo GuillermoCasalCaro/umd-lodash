@@ -1,2 +1,2 @@
-import at from "lodash/at";
-export default at;
+const at = require("lodash/at");
+module.exports = at;

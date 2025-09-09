@@ -1,2 +1,2 @@
-import overArgs from "lodash/overArgs";
-export default overArgs;
+const overArgs = require("lodash/overArgs");
+module.exports = overArgs;

@@ -1,2 +1,2 @@
-import wrap from "lodash/wrap";
-export default wrap;
+const wrap = require("lodash/wrap");
+module.exports = wrap;

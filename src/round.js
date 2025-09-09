@@ -1,2 +1,2 @@
-import round from "lodash/round";
-export default round;
+const round = require("lodash/round");
+module.exports = round;

@@ -1,2 +1,2 @@
-import omitBy from "lodash/omitBy";
-export default omitBy;
+const omitBy = require("lodash/omitBy");
+module.exports = omitBy;

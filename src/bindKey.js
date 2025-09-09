@@ -1,2 +1,2 @@
-import bindKey from "lodash/bindKey";
-export default bindKey;
+const bindKey = require("lodash/bindKey");
+module.exports = bindKey;

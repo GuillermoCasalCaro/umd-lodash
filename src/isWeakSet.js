@@ -1,2 +1,2 @@
-import isWeakSet from "lodash/isWeakSet";
-export default isWeakSet;
+const isWeakSet = require("lodash/isWeakSet");
+module.exports = isWeakSet;

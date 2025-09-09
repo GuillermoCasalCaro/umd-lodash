@@ -1,2 +1,2 @@
-import first from "lodash/first";
-export default first;
+const first = require("lodash/first");
+module.exports = first;

@@ -1,2 +1,2 @@
-import matches from "lodash/matches";
-export default matches;
+const matches = require("lodash/matches");
+module.exports = matches;

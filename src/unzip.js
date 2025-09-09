@@ -1,2 +1,2 @@
-import unzip from "lodash/unzip";
-export default unzip;
+const unzip = require("lodash/unzip");
+module.exports = unzip;

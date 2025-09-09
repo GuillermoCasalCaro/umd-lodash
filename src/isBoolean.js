@@ -1,2 +1,2 @@
-import isBoolean from "lodash/isBoolean";
-export default isBoolean;
+const isBoolean = require("lodash/isBoolean");
+module.exports = isBoolean;

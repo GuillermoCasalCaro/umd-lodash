@@ -1,2 +1,2 @@
-import trimStart from "lodash/trimStart";
-export default trimStart;
+const trimStart = require("lodash/trimStart");
+module.exports = trimStart;

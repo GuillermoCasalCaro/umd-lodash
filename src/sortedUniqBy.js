@@ -1,2 +1,2 @@
-import sortedUniqBy from "lodash/sortedUniqBy";
-export default sortedUniqBy;
+const sortedUniqBy = require("lodash/sortedUniqBy");
+module.exports = sortedUniqBy;

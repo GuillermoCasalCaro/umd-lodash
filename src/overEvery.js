@@ -1,2 +1,2 @@
-import overEvery from "lodash/overEvery";
-export default overEvery;
+const overEvery = require("lodash/overEvery");
+module.exports = overEvery;

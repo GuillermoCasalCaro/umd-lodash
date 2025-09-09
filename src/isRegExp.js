@@ -1,2 +1,2 @@
-import isRegExp from "lodash/isRegExp";
-export default isRegExp;
+const isRegExp = require("lodash/isRegExp");
+module.exports = isRegExp;

@@ -1,2 +1,2 @@
-import unescape from "lodash/unescape";
-export default unescape;
+const unescape = require("lodash/unescape");
+module.exports = unescape;

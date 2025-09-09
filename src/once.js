@@ -1,2 +1,2 @@
-import once from "lodash/once";
-export default once;
+const once = require("lodash/once");
+module.exports = once;

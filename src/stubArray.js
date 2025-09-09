@@ -1,2 +1,2 @@
-import stubArray from "lodash/stubArray";
-export default stubArray;
+const stubArray = require("lodash/stubArray");
+module.exports = stubArray;

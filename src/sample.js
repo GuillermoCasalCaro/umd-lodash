@@ -1,2 +1,2 @@
-import sample from "lodash/sample";
-export default sample;
+const sample = require("lodash/sample");
+module.exports = sample;

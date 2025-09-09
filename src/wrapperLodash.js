@@ -1,2 +1,2 @@
-import wrapperLodash from "lodash/wrapperLodash";
-export default wrapperLodash;
+const wrapperLodash = require("lodash/wrapperLodash");
+module.exports = wrapperLodash;

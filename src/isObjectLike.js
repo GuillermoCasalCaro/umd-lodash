@@ -1,2 +1,2 @@
-import isObjectLike from "lodash/isObjectLike";
-export default isObjectLike;
+const isObjectLike = require("lodash/isObjectLike");
+module.exports = isObjectLike;

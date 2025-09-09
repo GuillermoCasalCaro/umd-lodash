@@ -1,2 +1,2 @@
-import value from "lodash/value";
-export default value;
+const value = require("lodash/value");
+module.exports = value;

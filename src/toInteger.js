@@ -1,2 +1,2 @@
-import toInteger from "lodash/toInteger";
-export default toInteger;
+const toInteger = require("lodash/toInteger");
+module.exports = toInteger;

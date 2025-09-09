@@ -1,2 +1,2 @@
-import kebabCase from "lodash/kebabCase";
-export default kebabCase;
+const kebabCase = require("lodash/kebabCase");
+module.exports = kebabCase;

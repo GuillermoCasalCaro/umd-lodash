@@ -1,2 +1,2 @@
-import pullAt from "lodash/pullAt";
-export default pullAt;
+const pullAt = require("lodash/pullAt");
+module.exports = pullAt;

@@ -1,2 +1,2 @@
-import isArray from "lodash/isArray";
-export default isArray;
+const isArray = require("lodash/isArray");
+module.exports = isArray;

@@ -1,2 +1,2 @@
-import noop from "lodash/noop";
-export default noop;
+const noop = require("lodash/noop");
+module.exports = noop;

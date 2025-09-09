@@ -1,2 +1,2 @@
-import math from "lodash/math";
-export default math;
+const math = require("lodash/math");
+module.exports = math;

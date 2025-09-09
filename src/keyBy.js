@@ -1,2 +1,2 @@
-import keyBy from "lodash/keyBy";
-export default keyBy;
+const keyBy = require("lodash/keyBy");
+module.exports = keyBy;

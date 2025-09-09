@@ -1,2 +1,2 @@
-import wrapperAt from "lodash/wrapperAt";
-export default wrapperAt;
+const wrapperAt = require("lodash/wrapperAt");
+module.exports = wrapperAt;

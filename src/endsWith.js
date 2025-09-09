@@ -1,2 +1,2 @@
-import endsWith from "lodash/endsWith";
-export default endsWith;
+const endsWith = require("lodash/endsWith");
+module.exports = endsWith;

@@ -1,2 +1,2 @@
-import multiply from "lodash/multiply";
-export default multiply;
+const multiply = require("lodash/multiply");
+module.exports = multiply;

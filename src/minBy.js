@@ -1,2 +1,2 @@
-import minBy from "lodash/minBy";
-export default minBy;
+const minBy = require("lodash/minBy");
+module.exports = minBy;

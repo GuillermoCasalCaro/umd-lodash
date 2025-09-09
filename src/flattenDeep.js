@@ -1,2 +1,2 @@
-import flattenDeep from "lodash/flattenDeep";
-export default flattenDeep;
+const flattenDeep = require("lodash/flattenDeep");
+module.exports = flattenDeep;

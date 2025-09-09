@@ -1,2 +1,2 @@
-import throttle from "lodash/throttle";
-export default throttle;
+const throttle = require("lodash/throttle");
+module.exports = throttle;

@@ -1,2 +1,2 @@
-import concat from "lodash/concat";
-export default concat;
+const concat = require("lodash/concat");
+module.exports = concat;

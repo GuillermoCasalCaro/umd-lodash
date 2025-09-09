@@ -1,2 +1,2 @@
-import bind from "lodash/bind";
-export default bind;
+const bind = require("lodash/bind");
+module.exports = bind;

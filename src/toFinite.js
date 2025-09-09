@@ -1,2 +1,2 @@
-import toFinite from "lodash/toFinite";
-export default toFinite;
+const toFinite = require("lodash/toFinite");
+module.exports = toFinite;

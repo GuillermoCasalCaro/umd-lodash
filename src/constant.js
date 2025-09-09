@@ -1,2 +1,2 @@
-import constant from "lodash/constant";
-export default constant;
+const constant = require("lodash/constant");
+module.exports = constant;

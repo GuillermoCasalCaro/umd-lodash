@@ -1,2 +1,2 @@
-import isPlainObject from "lodash/isPlainObject";
-export default isPlainObject;
+const isPlainObject = require("lodash/isPlainObject");
+module.exports = isPlainObject;

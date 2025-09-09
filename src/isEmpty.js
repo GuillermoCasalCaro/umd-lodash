@@ -1,2 +1,2 @@
-import isEmpty from "lodash/isEmpty";
-export default isEmpty;
+const isEmpty = require("lodash/isEmpty");
+module.exports = isEmpty;

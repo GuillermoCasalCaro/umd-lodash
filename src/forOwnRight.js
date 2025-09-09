@@ -1,2 +1,2 @@
-import forOwnRight from "lodash/forOwnRight";
-export default forOwnRight;
+const forOwnRight = require("lodash/forOwnRight");
+module.exports = forOwnRight;

@@ -1,2 +1,2 @@
-import assignIn from "lodash/assignIn";
-export default assignIn;
+const assignIn = require("lodash/assignIn");
+module.exports = assignIn;

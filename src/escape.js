@@ -1,2 +1,2 @@
-import escape from "lodash/escape";
-export default escape;
+const escape = require("lodash/escape");
+module.exports = escape;

@@ -1,2 +1,2 @@
-import toLength from "lodash/toLength";
-export default toLength;
+const toLength = require("lodash/toLength");
+module.exports = toLength;

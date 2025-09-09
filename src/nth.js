@@ -1,2 +1,2 @@
-import nth from "lodash/nth";
-export default nth;
+const nth = require("lodash/nth");
+module.exports = nth;

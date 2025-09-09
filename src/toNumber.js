@@ -1,2 +1,2 @@
-import toNumber from "lodash/toNumber";
-export default toNumber;
+const toNumber = require("lodash/toNumber");
+module.exports = toNumber;

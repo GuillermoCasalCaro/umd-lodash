@@ -1,2 +1,2 @@
-import zip from "lodash/zip";
-export default zip;
+const zip = require("lodash/zip");
+module.exports = zip;

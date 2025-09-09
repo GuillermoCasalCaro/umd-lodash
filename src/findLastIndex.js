@@ -1,2 +1,2 @@
-import findLastIndex from "lodash/findLastIndex";
-export default findLastIndex;
+const findLastIndex = require("lodash/findLastIndex");
+module.exports = findLastIndex;

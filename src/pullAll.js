@@ -1,2 +1,2 @@
-import pullAll from "lodash/pullAll";
-export default pullAll;
+const pullAll = require("lodash/pullAll");
+module.exports = pullAll;

@@ -1,2 +1,2 @@
-import collection from "lodash/collection";
-export default collection;
+const collection = require("lodash/collection");
+module.exports = collection;

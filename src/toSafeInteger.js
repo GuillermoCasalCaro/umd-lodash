@@ -1,2 +1,2 @@
-import toSafeInteger from "lodash/toSafeInteger";
-export default toSafeInteger;
+const toSafeInteger = require("lodash/toSafeInteger");
+module.exports = toSafeInteger;

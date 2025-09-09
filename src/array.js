@@ -1,2 +1,2 @@
-import array from "lodash/array";
-export default array;
+const array = require("lodash/array");
+module.exports = array;

@@ -1,2 +1,2 @@
-import subtract from "lodash/subtract";
-export default subtract;
+const subtract = require("lodash/subtract");
+module.exports = subtract;

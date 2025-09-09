@@ -1,2 +1,2 @@
-import templateSettings from "lodash/templateSettings";
-export default templateSettings;
+const templateSettings = require("lodash/templateSettings");
+module.exports = templateSettings;

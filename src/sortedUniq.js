@@ -1,2 +1,2 @@
-import sortedUniq from "lodash/sortedUniq";
-export default sortedUniq;
+const sortedUniq = require("lodash/sortedUniq");
+module.exports = sortedUniq;

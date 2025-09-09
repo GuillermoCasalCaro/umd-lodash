@@ -1,2 +1,2 @@
-import cloneWith from "lodash/cloneWith";
-export default cloneWith;
+const cloneWith = require("lodash/cloneWith");
+module.exports = cloneWith;

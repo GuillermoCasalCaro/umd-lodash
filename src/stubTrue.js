@@ -1,2 +1,2 @@
-import stubTrue from "lodash/stubTrue";
-export default stubTrue;
+const stubTrue = require("lodash/stubTrue");
+module.exports = stubTrue;

@@ -1,2 +1,2 @@
-import isObject from "lodash/isObject";
-export default isObject;
+const isObject = require("lodash/isObject");
+module.exports = isObject;

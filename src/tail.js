@@ -1,2 +1,2 @@
-import tail from "lodash/tail";
-export default tail;
+const tail = require("lodash/tail");
+module.exports = tail;

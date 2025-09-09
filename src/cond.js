@@ -1,2 +1,2 @@
-import cond from "lodash/cond";
-export default cond;
+const cond = require("lodash/cond");
+module.exports = cond;

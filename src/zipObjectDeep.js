@@ -1,2 +1,2 @@
-import zipObjectDeep from "lodash/zipObjectDeep";
-export default zipObjectDeep;
+const zipObjectDeep = require("lodash/zipObjectDeep");
+module.exports = zipObjectDeep;

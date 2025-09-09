@@ -1,2 +1,2 @@
-import flatMap from "lodash/flatMap";
-export default flatMap;
+const flatMap = require("lodash/flatMap");
+module.exports = flatMap;

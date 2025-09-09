@@ -1,2 +1,2 @@
-import pullAllBy from "lodash/pullAllBy";
-export default pullAllBy;
+const pullAllBy = require("lodash/pullAllBy");
+module.exports = pullAllBy;

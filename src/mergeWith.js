@@ -1,2 +1,2 @@
-import mergeWith from "lodash/mergeWith";
-export default mergeWith;
+const mergeWith = require("lodash/mergeWith");
+module.exports = mergeWith;

@@ -1,2 +1,2 @@
-import fill from "lodash/fill";
-export default fill;
+const fill = require("lodash/fill");
+module.exports = fill;

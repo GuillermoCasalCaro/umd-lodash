@@ -1,2 +1,2 @@
-import mixin from "lodash/mixin";
-export default mixin;
+const mixin = require("lodash/mixin");
+module.exports = mixin;

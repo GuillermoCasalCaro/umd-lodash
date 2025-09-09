@@ -1,2 +1,2 @@
-import floor from "lodash/floor";
-export default floor;
+const floor = require("lodash/floor");
+module.exports = floor;

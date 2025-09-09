@@ -1,2 +1,2 @@
-import partition from "lodash/partition";
-export default partition;
+const partition = require("lodash/partition");
+module.exports = partition;

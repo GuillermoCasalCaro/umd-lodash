@@ -1,2 +1,2 @@
-import takeRightWhile from "lodash/takeRightWhile";
-export default takeRightWhile;
+const takeRightWhile = require("lodash/takeRightWhile");
+module.exports = takeRightWhile;

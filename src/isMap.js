@@ -1,2 +1,2 @@
-import isMap from "lodash/isMap";
-export default isMap;
+const isMap = require("lodash/isMap");
+module.exports = isMap;

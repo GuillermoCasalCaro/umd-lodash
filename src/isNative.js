@@ -1,2 +1,2 @@
-import isNative from "lodash/isNative";
-export default isNative;
+const isNative = require("lodash/isNative");
+module.exports = isNative;

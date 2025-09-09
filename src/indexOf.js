@@ -1,2 +1,2 @@
-import indexOf from "lodash/indexOf";
-export default indexOf;
+const indexOf = require("lodash/indexOf");
+module.exports = indexOf;

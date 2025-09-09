@@ -1,2 +1,2 @@
-import truncate from "lodash/truncate";
-export default truncate;
+const truncate = require("lodash/truncate");
+module.exports = truncate;

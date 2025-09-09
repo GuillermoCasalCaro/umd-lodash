@@ -1,2 +1,2 @@
-import padStart from "lodash/padStart";
-export default padStart;
+const padStart = require("lodash/padStart");
+module.exports = padStart;

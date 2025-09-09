@@ -1,2 +1,2 @@
-import isNull from "lodash/isNull";
-export default isNull;
+const isNull = require("lodash/isNull");
+module.exports = isNull;

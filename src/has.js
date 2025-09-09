@@ -1,2 +1,2 @@
-import has from "lodash/has";
-export default has;
+const has = require("lodash/has");
+module.exports = has;

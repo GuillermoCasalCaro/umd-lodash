@@ -1,2 +1,2 @@
-import wrapperChain from "lodash/wrapperChain";
-export default wrapperChain;
+const wrapperChain = require("lodash/wrapperChain");
+module.exports = wrapperChain;

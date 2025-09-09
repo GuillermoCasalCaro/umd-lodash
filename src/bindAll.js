@@ -1,2 +1,2 @@
-import bindAll from "lodash/bindAll";
-export default bindAll;
+const bindAll = require("lodash/bindAll");
+module.exports = bindAll;

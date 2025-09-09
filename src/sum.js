@@ -1,2 +1,2 @@
-import sum from "lodash/sum";
-export default sum;
+const sum = require("lodash/sum");
+module.exports = sum;

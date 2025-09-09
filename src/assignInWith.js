@@ -1,2 +1,2 @@
-import assignInWith from "lodash/assignInWith";
-export default assignInWith;
+const assignInWith = require("lodash/assignInWith");
+module.exports = assignInWith;

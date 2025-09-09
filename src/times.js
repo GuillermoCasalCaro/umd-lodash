@@ -1,2 +1,2 @@
-import times from "lodash/times";
-export default times;
+const times = require("lodash/times");
+module.exports = times;

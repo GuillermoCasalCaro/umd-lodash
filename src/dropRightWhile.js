@@ -1,2 +1,2 @@
-import dropRightWhile from "lodash/dropRightWhile";
-export default dropRightWhile;
+const dropRightWhile = require("lodash/dropRightWhile");
+module.exports = dropRightWhile;

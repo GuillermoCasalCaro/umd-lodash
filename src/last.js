@@ -1,2 +1,2 @@
-import last from "lodash/last";
-export default last;
+const last = require("lodash/last");
+module.exports = last;

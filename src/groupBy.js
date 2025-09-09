@@ -1,2 +1,2 @@
-import groupBy from "lodash/groupBy";
-export default groupBy;
+const groupBy = require("lodash/groupBy");
+module.exports = groupBy;

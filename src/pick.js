@@ -1,2 +1,2 @@
-import pick from "lodash/pick";
-export default pick;
+const pick = require("lodash/pick");
+module.exports = pick;

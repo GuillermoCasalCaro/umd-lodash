@@ -1,2 +1,2 @@
-import sortedLastIndexOf from "lodash/sortedLastIndexOf";
-export default sortedLastIndexOf;
+const sortedLastIndexOf = require("lodash/sortedLastIndexOf");
+module.exports = sortedLastIndexOf;

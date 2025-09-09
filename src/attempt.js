@@ -1,2 +1,2 @@
-import attempt from "lodash/attempt";
-export default attempt;
+const attempt = require("lodash/attempt");
+module.exports = attempt;

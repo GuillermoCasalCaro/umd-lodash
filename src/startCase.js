@@ -1,2 +1,2 @@
-import startCase from "lodash/startCase";
-export default startCase;
+const startCase = require("lodash/startCase");
+module.exports = startCase;

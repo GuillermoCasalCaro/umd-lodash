@@ -1,2 +1,2 @@
-import rangeRight from "lodash/rangeRight";
-export default rangeRight;
+const rangeRight = require("lodash/rangeRight");
+module.exports = rangeRight;

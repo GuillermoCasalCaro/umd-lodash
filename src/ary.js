@@ -1,2 +1,2 @@
-import ary from "lodash/ary";
-export default ary;
+const ary = require("lodash/ary");
+module.exports = ary;

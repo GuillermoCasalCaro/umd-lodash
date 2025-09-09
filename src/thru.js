@@ -1,2 +1,2 @@
-import thru from "lodash/thru";
-export default thru;
+const thru = require("lodash/thru");
+module.exports = thru;

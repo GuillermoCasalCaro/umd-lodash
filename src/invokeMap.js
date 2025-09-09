@@ -1,2 +1,2 @@
-import invokeMap from "lodash/invokeMap";
-export default invokeMap;
+const invokeMap = require("lodash/invokeMap");
+module.exports = invokeMap;

@@ -1,2 +1,2 @@
-import toString from "lodash/toString";
-export default toString;
+const toString = require("lodash/toString");
+module.exports = toString;

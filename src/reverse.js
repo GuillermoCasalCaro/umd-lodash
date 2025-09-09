@@ -1,2 +1,2 @@
-import reverse from "lodash/reverse";
-export default reverse;
+const reverse = require("lodash/reverse");
+module.exports = reverse;

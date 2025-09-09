@@ -1,2 +1,2 @@
-import capitalize from "lodash/capitalize";
-export default capitalize;
+const capitalize = require("lodash/capitalize");
+module.exports = capitalize;

@@ -1,2 +1,2 @@
-import rest from "lodash/rest";
-export default rest;
+const rest = require("lodash/rest");
+module.exports = rest;

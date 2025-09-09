@@ -1,2 +1,2 @@
-import xorBy from "lodash/xorBy";
-export default xorBy;
+const xorBy = require("lodash/xorBy");
+module.exports = xorBy;

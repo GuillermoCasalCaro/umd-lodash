@@ -1,2 +1,2 @@
-import some from "lodash/some";
-export default some;
+const some = require("lodash/some");
+module.exports = some;

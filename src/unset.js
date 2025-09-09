@@ -1,2 +1,2 @@
-import unset from "lodash/unset";
-export default unset;
+const unset = require("lodash/unset");
+module.exports = unset;

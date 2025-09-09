@@ -1,2 +1,2 @@
-import inRange from "lodash/inRange";
-export default inRange;
+const inRange = require("lodash/inRange");
+module.exports = inRange;

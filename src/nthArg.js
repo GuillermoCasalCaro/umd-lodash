@@ -1,2 +1,2 @@
-import nthArg from "lodash/nthArg";
-export default nthArg;
+const nthArg = require("lodash/nthArg");
+module.exports = nthArg;

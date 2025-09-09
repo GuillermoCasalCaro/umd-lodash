@@ -1,2 +1,2 @@
-import reduceRight from "lodash/reduceRight";
-export default reduceRight;
+const reduceRight = require("lodash/reduceRight");
+module.exports = reduceRight;

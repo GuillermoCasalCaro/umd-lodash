@@ -1,2 +1,2 @@
-import lowerCase from "lodash/lowerCase";
-export default lowerCase;
+const lowerCase = require("lodash/lowerCase");
+module.exports = lowerCase;

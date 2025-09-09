@@ -1,2 +1,2 @@
-import flow from "lodash/flow";
-export default flow;
+const flow = require("lodash/flow");
+module.exports = flow;

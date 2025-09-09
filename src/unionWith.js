@@ -1,2 +1,2 @@
-import unionWith from "lodash/unionWith";
-export default unionWith;
+const unionWith = require("lodash/unionWith");
+module.exports = unionWith;

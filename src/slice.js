@@ -1,2 +1,2 @@
-import slice from "lodash/slice";
-export default slice;
+const slice = require("lodash/slice");
+module.exports = slice;

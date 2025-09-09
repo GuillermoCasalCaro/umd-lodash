@@ -1,2 +1,2 @@
-import snakeCase from "lodash/snakeCase";
-export default snakeCase;
+const snakeCase = require("lodash/snakeCase");
+module.exports = snakeCase;

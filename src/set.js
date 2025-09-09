@@ -1,2 +1,2 @@
-import set from "lodash/set";
-export default set;
+const set = require("lodash/set");
+module.exports = set;

@@ -1,2 +1,2 @@
-import hasIn from "lodash/hasIn";
-export default hasIn;
+const hasIn = require("lodash/hasIn");
+module.exports = hasIn;

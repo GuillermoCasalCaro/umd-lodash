@@ -1,2 +1,2 @@
-import curry from "lodash/curry";
-export default curry;
+const curry = require("lodash/curry");
+module.exports = curry;

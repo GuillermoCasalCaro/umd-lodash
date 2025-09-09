@@ -1,2 +1,2 @@
-import methodOf from "lodash/methodOf";
-export default methodOf;
+const methodOf = require("lodash/methodOf");
+module.exports = methodOf;

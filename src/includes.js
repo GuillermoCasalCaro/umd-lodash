@@ -1,2 +1,2 @@
-import includes from "lodash/includes";
-export default includes;
+const includes = require("lodash/includes");
+module.exports = includes;

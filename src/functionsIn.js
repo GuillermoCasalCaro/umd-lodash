@@ -1,2 +1,2 @@
-import functionsIn from "lodash/functionsIn";
-export default functionsIn;
+const functionsIn = require("lodash/functionsIn");
+module.exports = functionsIn;

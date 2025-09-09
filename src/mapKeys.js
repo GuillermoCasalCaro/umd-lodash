@@ -1,2 +1,2 @@
-import mapKeys from "lodash/mapKeys";
-export default mapKeys;
+const mapKeys = require("lodash/mapKeys");
+module.exports = mapKeys;

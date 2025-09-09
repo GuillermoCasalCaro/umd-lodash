@@ -1,2 +1,2 @@
-import unzipWith from "lodash/unzipWith";
-export default unzipWith;
+const unzipWith = require("lodash/unzipWith");
+module.exports = unzipWith;

@@ -1,2 +1,2 @@
-import isElement from "lodash/isElement";
-export default isElement;
+const isElement = require("lodash/isElement");
+module.exports = isElement;

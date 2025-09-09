@@ -1,2 +1,2 @@
-import result from "lodash/result";
-export default result;
+const result = require("lodash/result");
+module.exports = result;

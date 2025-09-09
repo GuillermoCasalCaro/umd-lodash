@@ -1,2 +1,2 @@
-import string from "lodash/string";
-export default string;
+const string = require("lodash/string");
+module.exports = string;

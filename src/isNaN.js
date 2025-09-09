@@ -1,2 +1,2 @@
-import isNaN from "lodash/isNaN";
-export default isNaN;
+const isNaN = require("lodash/isNaN");
+module.exports = isNaN;

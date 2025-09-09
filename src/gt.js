@@ -1,2 +1,2 @@
-import gt from "lodash/gt";
-export default gt;
+const gt = require("lodash/gt");
+module.exports = gt;

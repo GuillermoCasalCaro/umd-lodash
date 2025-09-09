@@ -1,2 +1,2 @@
-import date from "lodash/date";
-export default date;
+const date = require("lodash/date");
+module.exports = date;

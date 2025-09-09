@@ -1,2 +1,2 @@
-import head from "lodash/head";
-export default head;
+const head = require("lodash/head");
+module.exports = head;

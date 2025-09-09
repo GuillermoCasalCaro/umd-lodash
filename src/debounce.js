@@ -1,2 +1,2 @@
-import debounce from "lodash/debounce";
-export default debounce;
+const debounce = require("lodash/debounce");
+module.exports = debounce;

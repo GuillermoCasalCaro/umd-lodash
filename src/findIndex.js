@@ -1,2 +1,2 @@
-import findIndex from "lodash/findIndex";
-export default findIndex;
+const findIndex = require("lodash/findIndex");
+module.exports = findIndex;

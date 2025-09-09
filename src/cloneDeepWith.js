@@ -1,2 +1,2 @@
-import cloneDeepWith from "lodash/cloneDeepWith";
-export default cloneDeepWith;
+const cloneDeepWith = require("lodash/cloneDeepWith");
+module.exports = cloneDeepWith;

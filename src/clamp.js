@@ -1,2 +1,2 @@
-import clamp from "lodash/clamp";
-export default clamp;
+const clamp = require("lodash/clamp");
+module.exports = clamp;

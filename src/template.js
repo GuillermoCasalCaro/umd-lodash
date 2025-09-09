@@ -1,2 +1,2 @@
-import template from "lodash/template";
-export default template;
+const template = require("lodash/template");
+module.exports = template;

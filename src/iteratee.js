@@ -1,2 +1,2 @@
-import iteratee from "lodash/iteratee";
-export default iteratee;
+const iteratee = require("lodash/iteratee");
+module.exports = iteratee;

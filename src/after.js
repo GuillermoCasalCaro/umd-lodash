@@ -1,2 +1,2 @@
-import after from "lodash/after";
-export default after;
+const after = require("lodash/after");
+module.exports = after;

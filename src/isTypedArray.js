@@ -1,2 +1,2 @@
-import isTypedArray from "lodash/isTypedArray";
-export default isTypedArray;
+const isTypedArray = require("lodash/isTypedArray");
+module.exports = isTypedArray;

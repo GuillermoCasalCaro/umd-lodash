@@ -1,2 +1,2 @@
-import before from "lodash/before";
-export default before;
+const before = require("lodash/before");
+module.exports = before;

@@ -1,2 +1,2 @@
-import pad from "lodash/pad";
-export default pad;
+const pad = require("lodash/pad");
+module.exports = pad;

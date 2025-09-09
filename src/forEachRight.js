@@ -1,2 +1,2 @@
-import forEachRight from "lodash/forEachRight";
-export default forEachRight;
+const forEachRight = require("lodash/forEachRight");
+module.exports = forEachRight;

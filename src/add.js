@@ -1,2 +1,2 @@
-import add from "lodash/add";
-export default add;
+const add = require("lodash/add");
+module.exports = add;

@@ -1,2 +1,2 @@
-import camelCase from "lodash/camelCase";
-export default camelCase;
+const camelCase = require("lodash/camelCase");
+module.exports = camelCase;

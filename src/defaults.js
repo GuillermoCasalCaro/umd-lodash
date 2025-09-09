@@ -1,2 +1,2 @@
-import defaults from "lodash/defaults";
-export default defaults;
+const defaults = require("lodash/defaults");
+module.exports = defaults;

@@ -1,2 +1,2 @@
-import wrapperValue from "lodash/wrapperValue";
-export default wrapperValue;
+const wrapperValue = require("lodash/wrapperValue");
+module.exports = wrapperValue;

@@ -1,2 +1,2 @@
-import ceil from "lodash/ceil";
-export default ceil;
+const ceil = require("lodash/ceil");
+module.exports = ceil;

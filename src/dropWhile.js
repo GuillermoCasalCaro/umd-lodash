@@ -1,2 +1,2 @@
-import dropWhile from "lodash/dropWhile";
-export default dropWhile;
+const dropWhile = require("lodash/dropWhile");
+module.exports = dropWhile;

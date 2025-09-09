@@ -1,2 +1,2 @@
-import overSome from "lodash/overSome";
-export default overSome;
+const overSome = require("lodash/overSome");
+module.exports = overSome;

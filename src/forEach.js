@@ -1,2 +1,2 @@
-import forEach from "lodash/forEach";
-export default forEach;
+const forEach = require("lodash/forEach");
+module.exports = forEach;

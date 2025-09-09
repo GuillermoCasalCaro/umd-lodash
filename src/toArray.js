@@ -1,2 +1,2 @@
-import toArray from "lodash/toArray";
-export default toArray;
+const toArray = require("lodash/toArray");
+module.exports = toArray;

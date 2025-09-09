@@ -1,2 +1,2 @@
-import flip from "lodash/flip";
-export default flip;
+const flip = require("lodash/flip");
+module.exports = flip;

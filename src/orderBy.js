@@ -1,2 +1,2 @@
-import orderBy from "lodash/orderBy";
-export default orderBy;
+const orderBy = require("lodash/orderBy");
+module.exports = orderBy;

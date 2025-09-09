@@ -1,2 +1,2 @@
-import isArrayBuffer from "lodash/isArrayBuffer";
-export default isArrayBuffer;
+const isArrayBuffer = require("lodash/isArrayBuffer");
+module.exports = isArrayBuffer;

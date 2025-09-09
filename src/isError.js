@@ -1,2 +1,2 @@
-import isError from "lodash/isError";
-export default isError;
+const isError = require("lodash/isError");
+module.exports = isError;

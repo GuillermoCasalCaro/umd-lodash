@@ -1,2 +1,2 @@
-import commit from "lodash/commit";
-export default commit;
+const commit = require("lodash/commit");
+module.exports = commit;

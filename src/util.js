@@ -1,2 +1,2 @@
-import util from "lodash/util";
-export default util;
+const util = require("lodash/util");
+module.exports = util;

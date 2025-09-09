@@ -1,2 +1,2 @@
-import countBy from "lodash/countBy";
-export default countBy;
+const countBy = require("lodash/countBy");
+module.exports = countBy;

@@ -1,2 +1,2 @@
-import entries from "lodash/entries";
-export default entries;
+const entries = require("lodash/entries");
+module.exports = entries;

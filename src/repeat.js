@@ -1,2 +1,2 @@
-import repeat from "lodash/repeat";
-export default repeat;
+const repeat = require("lodash/repeat");
+module.exports = repeat;

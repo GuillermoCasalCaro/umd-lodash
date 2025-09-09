@@ -1,2 +1,2 @@
-import upperFirst from "lodash/upperFirst";
-export default upperFirst;
+const upperFirst = require("lodash/upperFirst");
+module.exports = upperFirst;

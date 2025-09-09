@@ -1,2 +1,2 @@
-import seq from "lodash/seq";
-export default seq;
+const seq = require("lodash/seq");
+module.exports = seq;

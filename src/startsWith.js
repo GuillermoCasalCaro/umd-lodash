@@ -1,2 +1,2 @@
-import startsWith from "lodash/startsWith";
-export default startsWith;
+const startsWith = require("lodash/startsWith");
+module.exports = startsWith;

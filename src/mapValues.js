@@ -1,2 +1,2 @@
-import mapValues from "lodash/mapValues";
-export default mapValues;
+const mapValues = require("lodash/mapValues");
+module.exports = mapValues;

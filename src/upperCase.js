@@ -1,2 +1,2 @@
-import upperCase from "lodash/upperCase";
-export default upperCase;
+const upperCase = require("lodash/upperCase");
+module.exports = upperCase;

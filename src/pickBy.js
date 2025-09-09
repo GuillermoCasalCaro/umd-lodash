@@ -1,2 +1,2 @@
-import pickBy from "lodash/pickBy";
-export default pickBy;
+const pickBy = require("lodash/pickBy");
+module.exports = pickBy;

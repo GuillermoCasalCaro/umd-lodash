@@ -1,2 +1,2 @@
-import dropRight from "lodash/dropRight";
-export default dropRight;
+const dropRight = require("lodash/dropRight");
+module.exports = dropRight;

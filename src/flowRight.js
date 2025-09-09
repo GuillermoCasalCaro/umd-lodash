@@ -1,2 +1,2 @@
-import flowRight from "lodash/flowRight";
-export default flowRight;
+const flowRight = require("lodash/flowRight");
+module.exports = flowRight;

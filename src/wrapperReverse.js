@@ -1,2 +1,2 @@
-import wrapperReverse from "lodash/wrapperReverse";
-export default wrapperReverse;
+const wrapperReverse = require("lodash/wrapperReverse");
+module.exports = wrapperReverse;

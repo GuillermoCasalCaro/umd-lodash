@@ -1,2 +1,2 @@
-import partial from "lodash/partial";
-export default partial;
+const partial = require("lodash/partial");
+module.exports = partial;

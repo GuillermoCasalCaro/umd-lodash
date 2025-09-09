@@ -1,2 +1,2 @@
-import propertyOf from "lodash/propertyOf";
-export default propertyOf;
+const propertyOf = require("lodash/propertyOf");
+module.exports = propertyOf;

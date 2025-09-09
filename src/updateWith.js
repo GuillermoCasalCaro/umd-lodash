@@ -1,2 +1,2 @@
-import updateWith from "lodash/updateWith";
-export default updateWith;
+const updateWith = require("lodash/updateWith");
+module.exports = updateWith;

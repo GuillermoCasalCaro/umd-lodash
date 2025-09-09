@@ -1,2 +1,2 @@
-import mean from "lodash/mean";
-export default mean;
+const mean = require("lodash/mean");
+module.exports = mean;

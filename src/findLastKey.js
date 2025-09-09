@@ -1,2 +1,2 @@
-import findLastKey from "lodash/findLastKey";
-export default findLastKey;
+const findLastKey = require("lodash/findLastKey");
+module.exports = findLastKey;

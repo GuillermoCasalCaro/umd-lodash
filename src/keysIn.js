@@ -1,2 +1,2 @@
-import keysIn from "lodash/keysIn";
-export default keysIn;
+const keysIn = require("lodash/keysIn");
+module.exports = keysIn;

@@ -1,2 +1,2 @@
-import get from "lodash/get";
-export default get;
+const get = require("lodash/get");
+module.exports = get;

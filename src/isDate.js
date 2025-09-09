@@ -1,2 +1,2 @@
-import isDate from "lodash/isDate";
-export default isDate;
+const isDate = require("lodash/isDate");
+module.exports = isDate;

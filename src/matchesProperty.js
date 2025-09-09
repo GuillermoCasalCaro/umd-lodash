@@ -1,2 +1,2 @@
-import matchesProperty from "lodash/matchesProperty";
-export default matchesProperty;
+const matchesProperty = require("lodash/matchesProperty");
+module.exports = matchesProperty;

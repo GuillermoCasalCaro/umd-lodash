@@ -1,2 +1,2 @@
-import isMatchWith from "lodash/isMatchWith";
-export default isMatchWith;
+const isMatchWith = require("lodash/isMatchWith");
+module.exports = isMatchWith;

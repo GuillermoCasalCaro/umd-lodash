@@ -1,2 +1,2 @@
-import findKey from "lodash/findKey";
-export default findKey;
+const findKey = require("lodash/findKey");
+module.exports = findKey;

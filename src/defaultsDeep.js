@@ -1,2 +1,2 @@
-import defaultsDeep from "lodash/defaultsDeep";
-export default defaultsDeep;
+const defaultsDeep = require("lodash/defaultsDeep");
+module.exports = defaultsDeep;

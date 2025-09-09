@@ -1,2 +1,2 @@
-import isArrayLike from "lodash/isArrayLike";
-export default isArrayLike;
+const isArrayLike = require("lodash/isArrayLike");
+module.exports = isArrayLike;

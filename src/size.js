@@ -1,2 +1,2 @@
-import size from "lodash/size";
-export default size;
+const size = require("lodash/size");
+module.exports = size;

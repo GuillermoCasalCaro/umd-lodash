@@ -1,2 +1,2 @@
-import filter from "lodash/filter";
-export default filter;
+const filter = require("lodash/filter");
+module.exports = filter;

@@ -1,2 +1,2 @@
-import isMatch from "lodash/isMatch";
-export default isMatch;
+const isMatch = require("lodash/isMatch");
+module.exports = isMatch;

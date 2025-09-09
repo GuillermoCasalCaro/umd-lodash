@@ -1,2 +1,2 @@
-import isSymbol from "lodash/isSymbol";
-export default isSymbol;
+const isSymbol = require("lodash/isSymbol");
+module.exports = isSymbol;

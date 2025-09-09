@@ -1,2 +1,2 @@
-import number from "lodash/number";
-export default number;
+const number = require("lodash/number");
+module.exports = number;

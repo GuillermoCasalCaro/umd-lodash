@@ -1,2 +1,2 @@
-import isWeakMap from "lodash/isWeakMap";
-export default isWeakMap;
+const isWeakMap = require("lodash/isWeakMap");
+module.exports = isWeakMap;

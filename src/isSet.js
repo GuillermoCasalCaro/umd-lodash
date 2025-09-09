@@ -1,2 +1,2 @@
-import isSet from "lodash/isSet";
-export default isSet;
+const isSet = require("lodash/isSet");
+module.exports = isSet;

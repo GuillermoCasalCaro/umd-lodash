@@ -1,2 +1,2 @@
-import each from "lodash/each";
-export default each;
+const each = require("lodash/each");
+module.exports = each;

@@ -1,2 +1,2 @@
-import sampleSize from "lodash/sampleSize";
-export default sampleSize;
+const sampleSize = require("lodash/sampleSize");
+module.exports = sampleSize;

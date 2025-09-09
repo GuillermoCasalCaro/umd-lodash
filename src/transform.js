@@ -1,2 +1,2 @@
-import transform from "lodash/transform";
-export default transform;
+const transform = require("lodash/transform");
+module.exports = transform;

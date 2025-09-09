@@ -1,2 +1,2 @@
-import now from "lodash/now";
-export default now;
+const now = require("lodash/now");
+module.exports = now;

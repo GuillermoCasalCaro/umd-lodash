@@ -1,2 +1,2 @@
-import difference from "lodash/difference";
-export default difference;
+const difference = require("lodash/difference");
+module.exports = difference;

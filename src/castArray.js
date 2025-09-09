@@ -1,2 +1,2 @@
-import castArray from "lodash/castArray";
-export default castArray;
+const castArray = require("lodash/castArray");
+module.exports = castArray;

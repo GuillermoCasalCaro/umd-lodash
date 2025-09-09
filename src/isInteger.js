@@ -1,2 +1,2 @@
-import isInteger from "lodash/isInteger";
-export default isInteger;
+const isInteger = require("lodash/isInteger");
+module.exports = isInteger;

@@ -1,2 +1,2 @@
-import negate from "lodash/negate";
-export default negate;
+const negate = require("lodash/negate");
+module.exports = negate;

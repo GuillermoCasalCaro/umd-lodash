@@ -1,2 +1,2 @@
-import memoize from "lodash/memoize";
-export default memoize;
+const memoize = require("lodash/memoize");
+module.exports = memoize;

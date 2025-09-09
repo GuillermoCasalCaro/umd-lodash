@@ -1,2 +1,2 @@
-import unionBy from "lodash/unionBy";
-export default unionBy;
+const unionBy = require("lodash/unionBy");
+module.exports = unionBy;

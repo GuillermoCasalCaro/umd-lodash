@@ -1,2 +1,2 @@
-import find from "lodash/find";
-export default find;
+const find = require("lodash/find");
+module.exports = find;

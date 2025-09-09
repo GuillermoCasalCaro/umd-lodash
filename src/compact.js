@@ -1,2 +1,2 @@
-import compact from "lodash/compact";
-export default compact;
+const compact = require("lodash/compact");
+module.exports = compact;

@@ -1,2 +1,2 @@
-import map from "lodash/map";
-export default map;
+const map = require("lodash/map");
+module.exports = map;

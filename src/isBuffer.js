@@ -1,2 +1,2 @@
-import isBuffer from "lodash/isBuffer";
-export default isBuffer;
+const isBuffer = require("lodash/isBuffer");
+module.exports = isBuffer;

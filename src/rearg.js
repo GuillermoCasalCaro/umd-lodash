@@ -1,2 +1,2 @@
-import rearg from "lodash/rearg";
-export default rearg;
+const rearg = require("lodash/rearg");
+module.exports = rearg;

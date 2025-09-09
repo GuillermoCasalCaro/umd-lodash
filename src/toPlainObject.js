@@ -1,2 +1,2 @@
-import toPlainObject from "lodash/toPlainObject";
-export default toPlainObject;
+const toPlainObject = require("lodash/toPlainObject");
+module.exports = toPlainObject;

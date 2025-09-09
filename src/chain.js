@@ -1,2 +1,2 @@
-import chain from "lodash/chain";
-export default chain;
+const chain = require("lodash/chain");
+module.exports = chain;

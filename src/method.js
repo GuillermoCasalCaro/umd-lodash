@@ -1,2 +1,2 @@
-import method from "lodash/method";
-export default method;
+const method = require("lodash/method");
+module.exports = method;

@@ -1,2 +1,2 @@
-import lang from "lodash/lang";
-export default lang;
+const lang = require("lodash/lang");
+module.exports = lang;

@@ -1,2 +1,2 @@
-import meanBy from "lodash/meanBy";
-export default meanBy;
+const meanBy = require("lodash/meanBy");
+module.exports = meanBy;

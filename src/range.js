@@ -1,2 +1,2 @@
-import range from "lodash/range";
-export default range;
+const range = require("lodash/range");
+module.exports = range;

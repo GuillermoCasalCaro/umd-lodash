@@ -1,2 +1,2 @@
-import lte from "lodash/lte";
-export default lte;
+const lte = require("lodash/lte");
+module.exports = lte;

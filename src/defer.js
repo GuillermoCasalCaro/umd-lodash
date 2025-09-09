@@ -1,2 +1,2 @@
-import defer from "lodash/defer";
-export default defer;
+const defer = require("lodash/defer");
+module.exports = defer;

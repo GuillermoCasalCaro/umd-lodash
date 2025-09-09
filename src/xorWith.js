@@ -1,2 +1,2 @@
-import xorWith from "lodash/xorWith";
-export default xorWith;
+const xorWith = require("lodash/xorWith");
+module.exports = xorWith;

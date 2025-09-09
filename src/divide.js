@@ -1,2 +1,2 @@
-import divide from "lodash/divide";
-export default divide;
+const divide = require("lodash/divide");
+module.exports = divide;

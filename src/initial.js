@@ -1,2 +1,2 @@
-import initial from "lodash/initial";
-export default initial;
+const initial = require("lodash/initial");
+module.exports = initial;

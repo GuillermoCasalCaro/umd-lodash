@@ -1,2 +1,2 @@
-import over from "lodash/over";
-export default over;
+const over = require("lodash/over");
+module.exports = over;

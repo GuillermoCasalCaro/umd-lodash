@@ -1,2 +1,2 @@
-import isFunction from "lodash/isFunction";
-export default isFunction;
+const isFunction = require("lodash/isFunction");
+module.exports = isFunction;

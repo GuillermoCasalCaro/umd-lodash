@@ -1,2 +1,2 @@
-import without from "lodash/without";
-export default without;
+const without = require("lodash/without");
+module.exports = without;

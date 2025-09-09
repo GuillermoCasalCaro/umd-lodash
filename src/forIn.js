@@ -1,2 +1,2 @@
-import forIn from "lodash/forIn";
-export default forIn;
+const forIn = require("lodash/forIn");
+module.exports = forIn;

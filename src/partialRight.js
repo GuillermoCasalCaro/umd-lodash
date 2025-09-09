@@ -1,2 +1,2 @@
-import partialRight from "lodash/partialRight";
-export default partialRight;
+const partialRight = require("lodash/partialRight");
+module.exports = partialRight;

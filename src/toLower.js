@@ -1,2 +1,2 @@
-import toLower from "lodash/toLower";
-export default toLower;
+const toLower = require("lodash/toLower");
+module.exports = toLower;

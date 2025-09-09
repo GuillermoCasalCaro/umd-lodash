@@ -1,2 +1,2 @@
-import chunk from "lodash/chunk";
-export default chunk;
+const chunk = require("lodash/chunk");
+module.exports = chunk;

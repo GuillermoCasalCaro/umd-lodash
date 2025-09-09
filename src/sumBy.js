@@ -1,2 +1,2 @@
-import sumBy from "lodash/sumBy";
-export default sumBy;
+const sumBy = require("lodash/sumBy");
+module.exports = sumBy;

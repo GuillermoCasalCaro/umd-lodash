@@ -1,2 +1,2 @@
-import zipObject from "lodash/zipObject";
-export default zipObject;
+const zipObject = require("lodash/zipObject");
+module.exports = zipObject;

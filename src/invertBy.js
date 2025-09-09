@@ -1,2 +1,2 @@
-import invertBy from "lodash/invertBy";
-export default invertBy;
+const invertBy = require("lodash/invertBy");
+module.exports = invertBy;

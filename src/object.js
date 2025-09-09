@@ -1,2 +1,2 @@
-import object from "lodash/object";
-export default object;
+const object = require("lodash/object");
+module.exports = object;

@@ -1,2 +1,2 @@
-import takeRight from "lodash/takeRight";
-export default takeRight;
+const takeRight = require("lodash/takeRight");
+module.exports = takeRight;

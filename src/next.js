@@ -1,2 +1,2 @@
-import next from "lodash/next";
-export default next;
+const next = require("lodash/next");
+module.exports = next;

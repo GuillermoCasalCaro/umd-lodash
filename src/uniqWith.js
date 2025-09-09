@@ -1,2 +1,2 @@
-import uniqWith from "lodash/uniqWith";
-export default uniqWith;
+const uniqWith = require("lodash/uniqWith");
+module.exports = uniqWith;

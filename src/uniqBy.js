@@ -1,2 +1,2 @@
-import uniqBy from "lodash/uniqBy";
-export default uniqBy;
+const uniqBy = require("lodash/uniqBy");
+module.exports = uniqBy;

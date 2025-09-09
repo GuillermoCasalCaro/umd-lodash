@@ -1,2 +1,2 @@
-import isUndefined from "lodash/isUndefined";
-export default isUndefined;
+const isUndefined = require("lodash/isUndefined");
+module.exports = isUndefined;

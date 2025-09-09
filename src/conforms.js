@@ -1,2 +1,2 @@
-import conforms from "lodash/conforms";
-export default conforms;
+const conforms = require("lodash/conforms");
+module.exports = conforms;

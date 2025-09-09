@@ -1,2 +1,2 @@
-import eq from "lodash/eq";
-export default eq;
+const eq = require("lodash/eq");
+module.exports = eq;

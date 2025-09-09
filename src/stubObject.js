@@ -1,2 +1,2 @@
-import stubObject from "lodash/stubObject";
-export default stubObject;
+const stubObject = require("lodash/stubObject");
+module.exports = stubObject;

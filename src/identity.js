@@ -1,2 +1,2 @@
-import identity from "lodash/identity";
-export default identity;
+const identity = require("lodash/identity");
+module.exports = identity;

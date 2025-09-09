@@ -1,2 +1,2 @@
-import isNil from "lodash/isNil";
-export default isNil;
+const isNil = require("lodash/isNil");
+module.exports = isNil;

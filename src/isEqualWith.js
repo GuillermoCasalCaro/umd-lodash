@@ -1,2 +1,2 @@
-import isEqualWith from "lodash/isEqualWith";
-export default isEqualWith;
+const isEqualWith = require("lodash/isEqualWith");
+module.exports = isEqualWith;

@@ -1,2 +1,2 @@
-import differenceBy from "lodash/differenceBy";
-export default differenceBy;
+const differenceBy = require("lodash/differenceBy");
+module.exports = differenceBy;

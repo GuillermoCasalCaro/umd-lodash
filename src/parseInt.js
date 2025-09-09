@@ -1,2 +1,2 @@
-import parseInt from "lodash/parseInt";
-export default parseInt;
+const parseInt = require("lodash/parseInt");
+module.exports = parseInt;

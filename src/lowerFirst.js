@@ -1,2 +1,2 @@
-import lowerFirst from "lodash/lowerFirst";
-export default lowerFirst;
+const lowerFirst = require("lodash/lowerFirst");
+module.exports = lowerFirst;

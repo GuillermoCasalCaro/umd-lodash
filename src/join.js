@@ -1,2 +1,2 @@
-import join from "lodash/join";
-export default join;
+const join = require("lodash/join");
+module.exports = join;

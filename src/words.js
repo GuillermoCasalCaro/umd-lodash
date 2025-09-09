@@ -1,2 +1,2 @@
-import words from "lodash/words";
-export default words;
+const words = require("lodash/words");
+module.exports = words;

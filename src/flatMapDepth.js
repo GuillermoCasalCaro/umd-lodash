@@ -1,2 +1,2 @@
-import flatMapDepth from "lodash/flatMapDepth";
-export default flatMapDepth;
+const flatMapDepth = require("lodash/flatMapDepth");
+module.exports = flatMapDepth;

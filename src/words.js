@@ -1,2 +1,2 @@
 import words from "lodash/words";
-export default words;
+module.exports = words;

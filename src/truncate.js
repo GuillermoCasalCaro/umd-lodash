@@ -1,2 +1,2 @@
 import truncate from "lodash/truncate";
-export default truncate;
+module.exports = truncate;

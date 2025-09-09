@@ -1,2 +1,2 @@
 import wrap from "lodash/wrap";
-export default wrap;
+module.exports = wrap;

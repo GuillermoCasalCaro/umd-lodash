@@ -1,2 +1,2 @@
 import cloneDeepWith from "lodash/cloneDeepWith";
-export default cloneDeepWith;
+module.exports = cloneDeepWith;

@@ -1,2 +1,2 @@
 import forOwnRight from "lodash/forOwnRight";
-export default forOwnRight;
+module.exports = forOwnRight;

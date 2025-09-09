@@ -1,2 +1,2 @@
 import unzipWith from "lodash/unzipWith";
-export default unzipWith;
+module.exports = unzipWith;

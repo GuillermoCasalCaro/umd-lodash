@@ -1,2 +1,2 @@
 import initial from "lodash/initial";
-export default initial;
+module.exports = initial;

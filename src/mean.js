@@ -1,2 +1,2 @@
 import mean from "lodash/mean";
-export default mean;
+module.exports = mean;

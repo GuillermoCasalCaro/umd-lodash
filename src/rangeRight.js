@@ -1,2 +1,2 @@
 import rangeRight from "lodash/rangeRight";
-export default rangeRight;
+module.exports = rangeRight;

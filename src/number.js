@@ -1,2 +1,2 @@
 import number from "lodash/number";
-export default number;
+module.exports = number;

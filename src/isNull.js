@@ -1,2 +1,2 @@
 import isNull from "lodash/isNull";
-export default isNull;
+module.exports = isNull;

@@ -1,2 +1,2 @@
 import times from "lodash/times";
-export default times;
+module.exports = times;

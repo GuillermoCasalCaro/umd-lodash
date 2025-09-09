@@ -1,2 +1,2 @@
 import intersectionBy from "lodash/intersectionBy";
-export default intersectionBy;
+module.exports = intersectionBy;

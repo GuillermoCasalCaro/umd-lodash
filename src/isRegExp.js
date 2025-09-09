@@ -1,2 +1,2 @@
 import isRegExp from "lodash/isRegExp";
-export default isRegExp;
+module.exports = isRegExp;

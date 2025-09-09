@@ -1,2 +1,2 @@
 import create from "lodash/create";
-export default create;
+module.exports = create;

@@ -1,2 +1,2 @@
 import isEmpty from "lodash/isEmpty";
-export default isEmpty;
+module.exports = isEmpty;

@@ -1,2 +1,2 @@
 import sortBy from "lodash/sortBy";
-export default sortBy;
+module.exports = sortBy;

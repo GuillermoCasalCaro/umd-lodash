@@ -1,2 +1,2 @@
 import zipWith from "lodash/zipWith";
-export default zipWith;
+module.exports = zipWith;

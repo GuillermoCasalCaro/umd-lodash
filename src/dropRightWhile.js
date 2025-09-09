@@ -1,2 +1,2 @@
 import dropRightWhile from "lodash/dropRightWhile";
-export default dropRightWhile;
+module.exports = dropRightWhile;

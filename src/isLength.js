@@ -1,2 +1,2 @@
 import isLength from "lodash/isLength";
-export default isLength;
+module.exports = isLength;

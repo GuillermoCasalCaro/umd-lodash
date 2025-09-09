@@ -1,2 +1,2 @@
 import keys from "lodash/keys";
-export default keys;
+module.exports = keys;

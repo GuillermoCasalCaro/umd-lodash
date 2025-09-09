@@ -1,2 +1,2 @@
 import toLength from "lodash/toLength";
-export default toLength;
+module.exports = toLength;

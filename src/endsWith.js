@@ -1,2 +1,2 @@
 import endsWith from "lodash/endsWith";
-export default endsWith;
+module.exports = endsWith;

@@ -1,2 +1,2 @@
 import flatMap from "lodash/flatMap";
-export default flatMap;
+module.exports = flatMap;

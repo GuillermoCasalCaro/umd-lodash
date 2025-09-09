@@ -1,2 +1,2 @@
 import lt from "lodash/lt";
-export default lt;
+module.exports = lt;

@@ -1,2 +1,2 @@
 import unary from "lodash/unary";
-export default unary;
+module.exports = unary;

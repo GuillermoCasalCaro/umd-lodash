@@ -1,2 +1,2 @@
 import overSome from "lodash/overSome";
-export default overSome;
+module.exports = overSome;

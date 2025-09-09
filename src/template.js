@@ -1,2 +1,2 @@
 import template from "lodash/template";
-export default template;
+module.exports = template;

@@ -1,2 +1,2 @@
 import isNumber from "lodash/isNumber";
-export default isNumber;
+module.exports = isNumber;

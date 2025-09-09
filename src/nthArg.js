@@ -1,2 +1,2 @@
 import nthArg from "lodash/nthArg";
-export default nthArg;
+module.exports = nthArg;

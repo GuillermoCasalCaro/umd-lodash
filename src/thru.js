@@ -1,2 +1,2 @@
 import thru from "lodash/thru";
-export default thru;
+module.exports = thru;

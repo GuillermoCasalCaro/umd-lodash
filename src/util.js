@@ -1,2 +1,2 @@
 import util from "lodash/util";
-export default util;
+module.exports = util;

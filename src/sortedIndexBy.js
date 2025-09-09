@@ -1,2 +1,2 @@
 import sortedIndexBy from "lodash/sortedIndexBy";
-export default sortedIndexBy;
+module.exports = sortedIndexBy;

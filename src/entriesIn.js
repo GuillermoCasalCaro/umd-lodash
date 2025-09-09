@@ -1,2 +1,2 @@
 import entriesIn from "lodash/entriesIn";
-export default entriesIn;
+module.exports = entriesIn;

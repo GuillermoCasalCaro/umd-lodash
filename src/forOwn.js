@@ -1,2 +1,2 @@
 import forOwn from "lodash/forOwn";
-export default forOwn;
+module.exports = forOwn;

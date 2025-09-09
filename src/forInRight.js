@@ -1,2 +1,2 @@
 import forInRight from "lodash/forInRight";
-export default forInRight;
+module.exports = forInRight;

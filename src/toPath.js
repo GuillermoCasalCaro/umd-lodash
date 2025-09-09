@@ -1,2 +1,2 @@
 import toPath from "lodash/toPath";
-export default toPath;
+module.exports = toPath;

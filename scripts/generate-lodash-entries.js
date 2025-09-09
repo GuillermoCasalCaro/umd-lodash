@@ -38,7 +38,7 @@ fs.readdirSync(lodashDir).forEach((file) => {
         !excludedFiles.has(file)
     ) {
         const funcName = path.basename(file, ".js");
-        const content = `import ${funcName} from "lodash/${funcName}";\nexport default ${funcName};\n`;
+        const content = `import ${funcName} from "lodash/${funcName}";\nmodule.exports = ${funcName};\n`;
         const outputPath = path.join(srcDir, `${funcName}.js`);
 
         fs.writeFileSync(outputPath, content);

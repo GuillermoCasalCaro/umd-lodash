@@ -1,2 +1,2 @@
 import defaultsDeep from "lodash/defaultsDeep";
-export default defaultsDeep;
+module.exports = defaultsDeep;

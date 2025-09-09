@@ -1,2 +1,2 @@
 import findIndex from "lodash/findIndex";
-export default findIndex;
+module.exports = findIndex;

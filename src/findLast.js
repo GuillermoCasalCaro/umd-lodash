@@ -1,2 +1,2 @@
 import findLast from "lodash/findLast";
-export default findLast;
+module.exports = findLast;

@@ -1,2 +1,2 @@
 import round from "lodash/round";
-export default round;
+module.exports = round;

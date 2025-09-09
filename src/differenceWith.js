@@ -1,2 +1,2 @@
 import differenceWith from "lodash/differenceWith";
-export default differenceWith;
+module.exports = differenceWith;

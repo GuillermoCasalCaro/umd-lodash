@@ -1,2 +1,2 @@
 import flattenDeep from "lodash/flattenDeep";
-export default flattenDeep;
+module.exports = flattenDeep;

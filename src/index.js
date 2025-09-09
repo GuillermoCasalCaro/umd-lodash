@@ -1,2 +1,2 @@
 import index from "lodash/index";
-export default index;
+module.exports = index;

@@ -1,2 +1,2 @@
 import upperFirst from "lodash/upperFirst";
-export default upperFirst;
+module.exports = upperFirst;

@@ -1,2 +1,2 @@
 import uniq from "lodash/uniq";
-export default uniq;
+module.exports = uniq;

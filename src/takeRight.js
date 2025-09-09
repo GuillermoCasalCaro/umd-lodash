@@ -1,2 +1,2 @@
 import takeRight from "lodash/takeRight";
-export default takeRight;
+module.exports = takeRight;

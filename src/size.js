@@ -1,2 +1,2 @@
 import size from "lodash/size";
-export default size;
+module.exports = size;

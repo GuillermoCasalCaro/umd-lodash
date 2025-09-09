@@ -1,2 +1,2 @@
 import pick from "lodash/pick";
-export default pick;
+module.exports = pick;

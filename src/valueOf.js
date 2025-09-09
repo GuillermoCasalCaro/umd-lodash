@@ -1,2 +1,2 @@
 import valueOf from "lodash/valueOf";
-export default valueOf;
+module.exports = valueOf;

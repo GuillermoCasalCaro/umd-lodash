@@ -1,2 +1,2 @@
 import each from "lodash/each";
-export default each;
+module.exports = each;

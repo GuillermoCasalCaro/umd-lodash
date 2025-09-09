@@ -1,2 +1,2 @@
 import mixin from "lodash/mixin";
-export default mixin;
+module.exports = mixin;

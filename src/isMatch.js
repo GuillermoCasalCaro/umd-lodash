@@ -1,2 +1,2 @@
 import isMatch from "lodash/isMatch";
-export default isMatch;
+module.exports = isMatch;

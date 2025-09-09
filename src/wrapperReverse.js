@@ -1,2 +1,2 @@
 import wrapperReverse from "lodash/wrapperReverse";
-export default wrapperReverse;
+module.exports = wrapperReverse;

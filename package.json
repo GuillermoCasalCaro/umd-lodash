@@ -1,6 +1,6 @@
 {
     "name": "umd-lodash",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "UMD builds of individual Lodash functions for browser and SystemJS",
     "main": "dist/index.umd.js",
     "author": "Guillermo Casal Caro",

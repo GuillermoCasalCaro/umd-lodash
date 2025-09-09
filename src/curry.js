@@ -1,2 +1,2 @@
 import curry from "lodash/curry";
-export default curry;
+module.exports = curry;

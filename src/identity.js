@@ -1,2 +1,2 @@
 import identity from "lodash/identity";
-export default identity;
+module.exports = identity;

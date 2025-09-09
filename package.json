@@ -4,9 +4,13 @@
     "description": "UMD builds of individual Lodash functions for browser and SystemJS",
     "main": "dist/index.umd.js",
     "author": "Guillermo Casal Caro",
+    "files": [
+        "dist"
+    ],
     "license": "MIT",
     "scripts": {
         "generate": "node scripts/generate-lodash-entries.js",
+        "prepare": "npm run build",
         "build": "webpack --config webpack.config.js --mode production"
     },
     "dependencies": {

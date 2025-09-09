@@ -1,2 +1,2 @@
 import toJSON from "lodash/toJSON";
-module.exports = toJSON;
+export default toJSON;

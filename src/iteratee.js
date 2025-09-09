@@ -1,2 +1,2 @@
 import iteratee from "lodash/iteratee";
-module.exports = iteratee;
+export default iteratee;

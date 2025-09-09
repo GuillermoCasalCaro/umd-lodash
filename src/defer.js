@@ -1,2 +1,2 @@
 import defer from "lodash/defer";
-module.exports = defer;
+export default defer;

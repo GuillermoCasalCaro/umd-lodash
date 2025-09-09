@@ -1,2 +1,2 @@
 import unescape from "lodash/unescape";
-module.exports = unescape;
+export default unescape;

@@ -1,2 +1,2 @@
 import isString from "lodash/isString";
-module.exports = isString;
+export default isString;

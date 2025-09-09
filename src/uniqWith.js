@@ -1,2 +1,2 @@
 import uniqWith from "lodash/uniqWith";
-module.exports = uniqWith;
+export default uniqWith;

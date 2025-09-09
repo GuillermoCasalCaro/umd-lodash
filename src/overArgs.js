@@ -1,2 +1,2 @@
 import overArgs from "lodash/overArgs";
-module.exports = overArgs;
+export default overArgs;

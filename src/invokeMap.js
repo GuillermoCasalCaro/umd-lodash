@@ -1,2 +1,2 @@
 import invokeMap from "lodash/invokeMap";
-module.exports = invokeMap;
+export default invokeMap;

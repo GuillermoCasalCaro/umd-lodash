@@ -1,2 +1,2 @@
 import isMap from "lodash/isMap";
-module.exports = isMap;
+export default isMap;

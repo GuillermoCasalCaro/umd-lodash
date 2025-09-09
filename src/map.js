@@ -1,2 +1,2 @@
 import map from "lodash/map";
-module.exports = map;
+export default map;

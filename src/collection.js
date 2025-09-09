@@ -1,2 +1,2 @@
 import collection from "lodash/collection";
-module.exports = collection;
+export default collection;

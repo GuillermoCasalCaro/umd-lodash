@@ -1,2 +1,2 @@
 import floor from "lodash/floor";
-module.exports = floor;
+export default floor;

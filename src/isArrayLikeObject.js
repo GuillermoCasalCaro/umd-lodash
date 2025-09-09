@@ -1,2 +1,2 @@
 import isArrayLikeObject from "lodash/isArrayLikeObject";
-module.exports = isArrayLikeObject;
+export default isArrayLikeObject;

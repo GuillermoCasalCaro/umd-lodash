@@ -1,2 +1,2 @@
 import get from "lodash/get";
-module.exports = get;
+export default get;

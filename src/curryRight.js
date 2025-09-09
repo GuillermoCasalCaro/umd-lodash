@@ -1,2 +1,2 @@
 import curryRight from "lodash/curryRight";
-module.exports = curryRight;
+export default curryRight;

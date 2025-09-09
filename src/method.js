@@ -1,2 +1,2 @@
 import method from "lodash/method";
-module.exports = method;
+export default method;

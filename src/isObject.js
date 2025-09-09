@@ -1,2 +1,2 @@
 import isObject from "lodash/isObject";
-module.exports = isObject;
+export default isObject;

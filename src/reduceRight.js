@@ -1,2 +1,2 @@
 import reduceRight from "lodash/reduceRight";
-module.exports = reduceRight;
+export default reduceRight;

@@ -1,2 +1,2 @@
 import isError from "lodash/isError";
-module.exports = isError;
+export default isError;

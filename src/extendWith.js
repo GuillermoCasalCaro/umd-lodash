@@ -1,2 +1,2 @@
 import extendWith from "lodash/extendWith";
-module.exports = extendWith;
+export default extendWith;

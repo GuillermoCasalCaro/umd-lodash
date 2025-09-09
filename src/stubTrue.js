@@ -1,2 +1,2 @@
 import stubTrue from "lodash/stubTrue";
-module.exports = stubTrue;
+export default stubTrue;

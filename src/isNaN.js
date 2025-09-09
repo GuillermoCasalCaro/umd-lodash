@@ -1,2 +1,2 @@
 import isNaN from "lodash/isNaN";
-module.exports = isNaN;
+export default isNaN;

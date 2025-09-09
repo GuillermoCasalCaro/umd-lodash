@@ -1,2 +1,2 @@
 import flowRight from "lodash/flowRight";
-module.exports = flowRight;
+export default flowRight;

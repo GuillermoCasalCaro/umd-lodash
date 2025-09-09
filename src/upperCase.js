@@ -1,2 +1,2 @@
 import upperCase from "lodash/upperCase";
-module.exports = upperCase;
+export default upperCase;

@@ -1,2 +1,2 @@
 import set from "lodash/set";
-module.exports = set;
+export default set;

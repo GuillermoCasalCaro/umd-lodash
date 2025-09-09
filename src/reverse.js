@@ -1,2 +1,2 @@
 import reverse from "lodash/reverse";
-module.exports = reverse;
+export default reverse;

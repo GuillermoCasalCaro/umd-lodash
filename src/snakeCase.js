@@ -1,2 +1,2 @@
 import snakeCase from "lodash/snakeCase";
-module.exports = snakeCase;
+export default snakeCase;

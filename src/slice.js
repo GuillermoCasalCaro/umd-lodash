@@ -1,2 +1,2 @@
 import slice from "lodash/slice";
-module.exports = slice;
+export default slice;

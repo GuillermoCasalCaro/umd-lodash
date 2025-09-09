@@ -1,2 +1,2 @@
 import toPairs from "lodash/toPairs";
-module.exports = toPairs;
+export default toPairs;

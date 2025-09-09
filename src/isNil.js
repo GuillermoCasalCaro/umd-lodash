@@ -1,2 +1,2 @@
 import isNil from "lodash/isNil";
-module.exports = isNil;
+export default isNil;

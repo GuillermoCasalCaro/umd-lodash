@@ -1,2 +1,2 @@
 import updateWith from "lodash/updateWith";
-module.exports = updateWith;
+export default updateWith;

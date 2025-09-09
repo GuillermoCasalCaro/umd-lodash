@@ -1,2 +1,2 @@
 import partialRight from "lodash/partialRight";
-module.exports = partialRight;
+export default partialRight;

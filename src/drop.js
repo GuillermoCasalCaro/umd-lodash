@@ -1,2 +1,2 @@
 import drop from "lodash/drop";
-module.exports = drop;
+export default drop;

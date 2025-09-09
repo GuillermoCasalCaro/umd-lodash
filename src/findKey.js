@@ -1,2 +1,2 @@
 import findKey from "lodash/findKey";
-module.exports = findKey;
+export default findKey;

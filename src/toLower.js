@@ -1,2 +1,2 @@
 import toLower from "lodash/toLower";
-module.exports = toLower;
+export default toLower;

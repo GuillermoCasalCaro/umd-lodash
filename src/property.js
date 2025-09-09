@@ -1,2 +1,2 @@
 import property from "lodash/property";
-module.exports = property;
+export default property;

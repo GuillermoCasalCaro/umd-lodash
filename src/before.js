@@ -1,2 +1,2 @@
 import before from "lodash/before";
-module.exports = before;
+export default before;

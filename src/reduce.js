@@ -1,2 +1,2 @@
 import reduce from "lodash/reduce";
-module.exports = reduce;
+export default reduce;

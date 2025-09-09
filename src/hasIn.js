@@ -1,2 +1,2 @@
 import hasIn from "lodash/hasIn";
-module.exports = hasIn;
+export default hasIn;

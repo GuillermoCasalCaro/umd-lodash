@@ -1,2 +1,2 @@
 import commit from "lodash/commit";
-module.exports = commit;
+export default commit;

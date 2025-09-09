@@ -1,2 +1,2 @@
 import assignWith from "lodash/assignWith";
-module.exports = assignWith;
+export default assignWith;

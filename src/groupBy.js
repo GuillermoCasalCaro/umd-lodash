@@ -1,2 +1,2 @@
 import groupBy from "lodash/groupBy";
-module.exports = groupBy;
+export default groupBy;

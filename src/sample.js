@@ -1,2 +1,2 @@
 import sample from "lodash/sample";
-module.exports = sample;
+export default sample;

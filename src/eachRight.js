@@ -1,2 +1,2 @@
 import eachRight from "lodash/eachRight";
-module.exports = eachRight;
+export default eachRight;

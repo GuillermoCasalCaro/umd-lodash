@@ -1,2 +1,2 @@
 import pullAll from "lodash/pullAll";
-module.exports = pullAll;
+export default pullAll;

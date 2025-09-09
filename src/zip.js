@@ -1,2 +1,2 @@
 import zip from "lodash/zip";
-module.exports = zip;
+export default zip;

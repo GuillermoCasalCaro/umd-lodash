@@ -1,2 +1,2 @@
 import lang from "lodash/lang";
-module.exports = lang;
+export default lang;

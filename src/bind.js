@@ -1,2 +1,2 @@
 import bind from "lodash/bind";
-module.exports = bind;
+export default bind;

@@ -1,2 +1,2 @@
 import functions from "lodash/functions";
-module.exports = functions;
+export default functions;

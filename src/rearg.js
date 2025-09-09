@@ -1,2 +1,2 @@
 import rearg from "lodash/rearg";
-module.exports = rearg;
+export default rearg;

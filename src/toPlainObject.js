@@ -1,2 +1,2 @@
 import toPlainObject from "lodash/toPlainObject";
-module.exports = toPlainObject;
+export default toPlainObject;

@@ -1,2 +1,2 @@
 import sumBy from "lodash/sumBy";
-module.exports = sumBy;
+export default sumBy;

@@ -1,2 +1,2 @@
 import sampleSize from "lodash/sampleSize";
-module.exports = sampleSize;
+export default sampleSize;

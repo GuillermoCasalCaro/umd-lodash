@@ -1,2 +1,2 @@
 import gt from "lodash/gt";
-module.exports = gt;
+export default gt;

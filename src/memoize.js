@@ -1,2 +1,2 @@
 import memoize from "lodash/memoize";
-module.exports = memoize;
+export default memoize;

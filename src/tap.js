@@ -1,2 +1,2 @@
 import tap from "lodash/tap";
-module.exports = tap;
+export default tap;

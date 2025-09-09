@@ -1,2 +1,2 @@
 import intersectionWith from "lodash/intersectionWith";
-module.exports = intersectionWith;
+export default intersectionWith;

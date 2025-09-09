@@ -1,2 +1,2 @@
 import mapKeys from "lodash/mapKeys";
-module.exports = mapKeys;
+export default mapKeys;

@@ -1,2 +1,2 @@
 import reject from "lodash/reject";
-module.exports = reject;
+export default reject;

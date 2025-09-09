@@ -1,2 +1,2 @@
 import lte from "lodash/lte";
-module.exports = lte;
+export default lte;

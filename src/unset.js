@@ -1,2 +1,2 @@
 import unset from "lodash/unset";
-module.exports = unset;
+export default unset;

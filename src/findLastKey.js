@@ -1,2 +1,2 @@
 import findLastKey from "lodash/findLastKey";
-module.exports = findLastKey;
+export default findLastKey;

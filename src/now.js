@@ -1,2 +1,2 @@
 import now from "lodash/now";
-module.exports = now;
+export default now;

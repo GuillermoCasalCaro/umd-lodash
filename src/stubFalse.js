@@ -1,2 +1,2 @@
 import stubFalse from "lodash/stubFalse";
-module.exports = stubFalse;
+export default stubFalse;

@@ -1,2 +1,2 @@
 import minBy from "lodash/minBy";
-module.exports = minBy;
+export default minBy;

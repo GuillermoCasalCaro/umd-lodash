@@ -1,2 +1,2 @@
 import seq from "lodash/seq";
-module.exports = seq;
+export default seq;

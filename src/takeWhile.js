@@ -1,2 +1,2 @@
 import takeWhile from "lodash/takeWhile";
-module.exports = takeWhile;
+export default takeWhile;

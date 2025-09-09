@@ -1,2 +1,2 @@
 import compact from "lodash/compact";
-module.exports = compact;
+export default compact;

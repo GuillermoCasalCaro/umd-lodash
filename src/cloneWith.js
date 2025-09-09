@@ -1,2 +1,2 @@
 import cloneWith from "lodash/cloneWith";
-module.exports = cloneWith;
+export default cloneWith;

@@ -1,2 +1,2 @@
 import filter from "lodash/filter";
-module.exports = filter;
+export default filter;

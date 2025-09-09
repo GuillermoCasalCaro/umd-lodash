@@ -1,2 +1,2 @@
 import partition from "lodash/partition";
-module.exports = partition;
+export default partition;

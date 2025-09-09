@@ -1,2 +1,2 @@
 import propertyOf from "lodash/propertyOf";
-module.exports = propertyOf;
+export default propertyOf;

@@ -1,2 +1,2 @@
 import keysIn from "lodash/keysIn";
-module.exports = keysIn;
+export default keysIn;

@@ -1,2 +1,2 @@
 import repeat from "lodash/repeat";
-module.exports = repeat;
+export default repeat;

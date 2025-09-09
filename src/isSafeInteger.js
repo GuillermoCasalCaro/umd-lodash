@@ -1,2 +1,2 @@
 import isSafeInteger from "lodash/isSafeInteger";
-module.exports = isSafeInteger;
+export default isSafeInteger;

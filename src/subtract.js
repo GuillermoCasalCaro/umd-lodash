@@ -1,2 +1,2 @@
 import subtract from "lodash/subtract";
-module.exports = subtract;
+export default subtract;

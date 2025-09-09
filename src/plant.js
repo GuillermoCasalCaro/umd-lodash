@@ -1,2 +1,2 @@
 import plant from "lodash/plant";
-module.exports = plant;
+export default plant;

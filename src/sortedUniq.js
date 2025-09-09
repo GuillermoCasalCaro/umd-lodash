@@ -1,2 +1,2 @@
 import sortedUniq from "lodash/sortedUniq";
-module.exports = sortedUniq;
+export default sortedUniq;

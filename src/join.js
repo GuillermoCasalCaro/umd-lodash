@@ -1,2 +1,2 @@
 import join from "lodash/join";
-module.exports = join;
+export default join;

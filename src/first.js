@@ -1,2 +1,2 @@
 import first from "lodash/first";
-module.exports = first;
+export default first;

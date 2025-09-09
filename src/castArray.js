@@ -1,2 +1,2 @@
 import castArray from "lodash/castArray";
-module.exports = castArray;
+export default castArray;

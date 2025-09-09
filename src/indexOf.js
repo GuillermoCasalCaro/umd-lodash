@@ -1,2 +1,2 @@
 import indexOf from "lodash/indexOf";
-module.exports = indexOf;
+export default indexOf;

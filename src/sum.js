@@ -1,2 +1,2 @@
 import sum from "lodash/sum";
-module.exports = sum;
+export default sum;

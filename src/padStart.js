@@ -1,2 +1,2 @@
 import padStart from "lodash/padStart";
-module.exports = padStart;
+export default padStart;

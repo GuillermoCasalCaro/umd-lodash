@@ -1,2 +1,2 @@
 import trimStart from "lodash/trimStart";
-module.exports = trimStart;
+export default trimStart;

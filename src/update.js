@@ -1,2 +1,2 @@
 import update from "lodash/update";
-module.exports = update;
+export default update;

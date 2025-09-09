@@ -1,2 +1,2 @@
 import last from "lodash/last";
-module.exports = last;
+export default last;

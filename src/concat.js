@@ -1,2 +1,2 @@
 import concat from "lodash/concat";
-module.exports = concat;
+export default concat;

@@ -1,2 +1,2 @@
 import zipObject from "lodash/zipObject";
-module.exports = zipObject;
+export default zipObject;

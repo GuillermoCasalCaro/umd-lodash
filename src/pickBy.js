@@ -1,2 +1,2 @@
 import pickBy from "lodash/pickBy";
-module.exports = pickBy;
+export default pickBy;

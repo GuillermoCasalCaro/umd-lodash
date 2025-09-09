@@ -1,2 +1,2 @@
 import fill from "lodash/fill";
-module.exports = fill;
+export default fill;

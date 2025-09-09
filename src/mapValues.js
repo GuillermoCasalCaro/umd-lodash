@@ -1,2 +1,2 @@
 import mapValues from "lodash/mapValues";
-module.exports = mapValues;
+export default mapValues;

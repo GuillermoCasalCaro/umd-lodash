@@ -1,2 +1,2 @@
 import clamp from "lodash/clamp";
-module.exports = clamp;
+export default clamp;

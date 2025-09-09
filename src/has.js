@@ -1,2 +1,2 @@
 import has from "lodash/has";
-module.exports = has;
+export default has;

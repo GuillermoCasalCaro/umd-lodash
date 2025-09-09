@@ -1,2 +1,2 @@
 import stubObject from "lodash/stubObject";
-module.exports = stubObject;
+export default stubObject;

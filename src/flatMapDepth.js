@@ -1,2 +1,2 @@
 import flatMapDepth from "lodash/flatMapDepth";
-module.exports = flatMapDepth;
+export default flatMapDepth;

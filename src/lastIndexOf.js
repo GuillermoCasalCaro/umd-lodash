@@ -1,2 +1,2 @@
 import lastIndexOf from "lodash/lastIndexOf";
-module.exports = lastIndexOf;
+export default lastIndexOf;

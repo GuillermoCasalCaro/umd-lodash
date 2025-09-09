@@ -1,2 +1,2 @@
 import union from "lodash/union";
-module.exports = union;
+export default union;

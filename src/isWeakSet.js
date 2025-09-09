@@ -1,2 +1,2 @@
 import isWeakSet from "lodash/isWeakSet";
-module.exports = isWeakSet;
+export default isWeakSet;

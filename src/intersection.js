@@ -1,2 +1,2 @@
 import intersection from "lodash/intersection";
-module.exports = intersection;
+export default intersection;

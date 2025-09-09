@@ -1,2 +1,2 @@
 import forIn from "lodash/forIn";
-module.exports = forIn;
+export default forIn;

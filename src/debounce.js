@@ -1,2 +1,2 @@
 import debounce from "lodash/debounce";
-module.exports = debounce;
+export default debounce;

@@ -1,2 +1,2 @@
 import wrapperAt from "lodash/wrapperAt";
-module.exports = wrapperAt;
+export default wrapperAt;

@@ -1,2 +1,2 @@
 import isEqual from "lodash/isEqual";
-module.exports = isEqual;
+export default isEqual;

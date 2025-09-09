@@ -1,2 +1,2 @@
 import constant from "lodash/constant";
-module.exports = constant;
+export default constant;

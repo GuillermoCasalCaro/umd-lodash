@@ -1,2 +1,2 @@
 import xorWith from "lodash/xorWith";
-module.exports = xorWith;
+export default xorWith;

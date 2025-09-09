@@ -1,2 +1,2 @@
 import defaultTo from "lodash/defaultTo";
-module.exports = defaultTo;
+export default defaultTo;

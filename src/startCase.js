@@ -1,2 +1,2 @@
 import startCase from "lodash/startCase";
-module.exports = startCase;
+export default startCase;

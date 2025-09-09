@@ -1,2 +1,2 @@
 import add from "lodash/add";
-module.exports = add;
+export default add;

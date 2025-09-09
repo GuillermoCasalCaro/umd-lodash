@@ -1,2 +1,2 @@
 import string from "lodash/string";
-module.exports = string;
+export default string;

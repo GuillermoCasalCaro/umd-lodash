@@ -1,2 +1,2 @@
 import values from "lodash/values";
-module.exports = values;
+export default values;

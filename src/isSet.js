@@ -1,2 +1,2 @@
 import isSet from "lodash/isSet";
-module.exports = isSet;
+export default isSet;

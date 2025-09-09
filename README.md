@@ -1,28 +1,54 @@
 # umd-lodash
 
-UMD builds for modularized [Lodash](https://lodash.com/) functions.  
-This project provides each Lodash function as a standalone **UMD module**, making them easy to use in plain script tags, SystemJS, or any environment without a bundler.
+UMD builds for modularized [Lodash](https://lodash.com/) functions.
 
-## 🌐 Usage via jsDelivr CDN
+This project provides each Lodash function as a standalone **UMD module**, making them easy to use in plain script tags, SystemJS, ES modules, or any environment without a bundler. You can also use this for externalization in bundlers (like Webpack) and load Lodash functions as UMD modules from a CDN, reducing your bundle size and allowing dynamic loading.
 
-Each function is available directly from jsDelivr.
+## 🚀 Externalization Example (Webpack) and direct link to CDN
 
-**Example with `assign`:**
+You can configure your bundler (e.g., Webpack) to externalize Lodash functions and load them as UMD modules from a CDN:
+
+```js
+// webpack.config.js
+const lodashFnsToExternalize = ["uniq", "flatten"];
+const externals = Object.fromEntries(
+    lodashFnsToExternalize.map((fn) => [
+        `lodash/${fn}`,
+        `https://cdn.jsdelivr.net/npm/umd-lodash@1.0.6/dist/${fn}.umd.js`,
+    ])
+);
+
+module.exports = {
+    // ...existing config...
+    externals,
+    // Configure externalsType/output.library.type as 'system'.
+    // If you use the plugins of single-spa this may be implicit.
+};
+```
+
+**Tip:** You can use an alias (e.g., `npm/umd-lodash@1.0.6/dist/${fn}.umd.js`) and resolve it to the CDN using a SystemJS import map in your `index.html`:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/umd-lodash@1.0.0/dist/assign.umd.js"></script>
-<script>
-    const result = lodashAssign({ a: 1 }, { b: 2 });
-    console.log(result); // { a: 1, b: 2 }
+<script type="systemjs-importmap">
+    {
+        "imports": {
+            "npm/": "https://cdn.jsdelivr.net/npm/"
+        }
+    }
 </script>
 ```
 
-**Example with `isEqual`:**
+This allows you to reference modules using the `npm/` prefix, which SystemJS will resolve to the CDN automatically.
+
+## 🌐 Usage via jsDelivr CDN
+
+You can use any Lodash function by adding its script and using it globally as `umd_lodash_<functionName>`.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/umd-lodash@1.0.0/dist/isEqual.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/umd-lodash@1.0.6/dist/chunk.umd.js"></script>
 <script>
-    console.log(lodashIsEqual([1, 2], [1, 2])); // true
+    const result = umd_lodash_chunk([1, 2, 3, 4, 5], 2);
+    console.log(result); // [[1,2],[3,4],[5]]
 </script>
 ```
 
@@ -32,11 +58,21 @@ Each function is available directly from jsDelivr.
 <script src="https://cdn.jsdelivr.net/npm/systemjs@6.15.1/dist/system.min.js"></script>
 <script>
     System.import(
-        "https://cdn.jsdelivr.net/npm/umd-lodash@1.0.0/dist/isEqual.umd.js"
-    ).then(({ default: isEqual }) => {
-        console.log(isEqual({ a: 1 }, { a: 1 })); // true
+        "https://cdn.jsdelivr.net/npm/umd-lodash@1.0.6/dist/camelCase.umd.js"
+    ).then(({ default: camelCase }) => {
+        console.log(camelCase("hello world")); // "helloWorld"
     });
 </script>
+```
+
+## 📦 Usage with ES Modules (CDN)
+
+You can also import Lodash functions as ES modules from the CDN:
+
+```js
+import debounce from "https://cdn.jsdelivr.net/npm/umd-lodash@1.0.6/dist/debounce.umd.js";
+
+debounce(() => console.log("Debounced!"), 200);
 ```
 
 ## 📂 Available Functions
@@ -46,7 +82,10 @@ Every Lodash function (except internals like `_base*`) is exported as an individ
 Example paths:
 
 -   `dist/assign.umd.js`
--   `dist/isEqual.umd.js`
+-   `dist/chunk.umd.js`
+-   `dist/camelCase.umd.js`
+-   `dist/uniq.umd.js`
+-   `dist/flatten.umd.js`
 -   `dist/debounce.umd.js`
 -   ...
 

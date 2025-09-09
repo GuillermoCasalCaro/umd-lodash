@@ -1,9 +1,24 @@
 {
     "name": "umd-lodash",
-    "version": "1.0.5",
-    "description": "UMD builds of individual Lodash functions for browser and SystemJS",
+    "version": "1.0.6",
+    "description": "UMD build of lodash for browser and SystemJS usage, providing utility functions in a standalone script",
     "main": "dist/index.umd.js",
+    "keywords": [
+        "lodash",
+        "lodash-modularized",
+        "umd",
+        "systemjs",
+        "browser"
+    ],
     "author": "Guillermo Casal Caro",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GuillermoCasalCaro/umd-lodash.git"
+    },
+    "bugs": {
+        "url": "https://github.com/GuillermoCasalCaro/umd-lodash/issues"
+    },
+    "homepage": "https://github.com/GuillermoCasalCaro/umd-lodash#readme",
     "files": [
         "dist"
     ],

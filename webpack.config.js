@@ -22,10 +22,9 @@ module.exports = entries.map((file) => {
             library: {
                 name: `umd_lodash_${name}`,
                 type: "umd",
-                // export: "default",
                 umdNamedDefine: true,
             },
-            libraryExport: "default",
+            libraryExport: undefined,
             globalObject: "this",
         },
         module: {

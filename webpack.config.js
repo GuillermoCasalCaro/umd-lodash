@@ -24,7 +24,6 @@ module.exports = entries.map((file) => {
                 type: "umd",
                 umdNamedDefine: true,
             },
-            // libraryExport: undefined,
             globalObject: "this",
         },
         module: {

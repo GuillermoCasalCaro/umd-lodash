@@ -1,0 +1,10 @@
+{
+    "name": "umd-lodash",
+    "version": "1.0.0",
+    "main": "dist/index.umd.js",
+    "author": "Guillermo Casal Caro",
+    "license": "MIT",
+    "dependencies": {
+        "lodash": "4.17.21"
+    }
+}

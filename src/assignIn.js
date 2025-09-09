@@ -1,2 +1,2 @@
-import assignIn from 'lodash/assignIn';
+import assignIn from "lodash/assignIn";
 export default assignIn;

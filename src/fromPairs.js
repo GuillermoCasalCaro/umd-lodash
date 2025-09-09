@@ -1,2 +1,2 @@
-import fromPairs from 'lodash/fromPairs';
+import fromPairs from "lodash/fromPairs";
 export default fromPairs;

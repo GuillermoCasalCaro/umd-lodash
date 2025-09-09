@@ -1,2 +1,2 @@
-import parseInt from 'lodash/parseInt';
+import parseInt from "lodash/parseInt";
 export default parseInt;

@@ -1,2 +1,2 @@
-import negate from 'lodash/negate';
+import negate from "lodash/negate";
 export default negate;

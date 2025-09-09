@@ -1,2 +1,2 @@
-import chunk from 'lodash/chunk';
+import chunk from "lodash/chunk";
 export default chunk;

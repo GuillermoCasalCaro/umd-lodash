@@ -1,2 +1,2 @@
-import over from 'lodash/over';
+import over from "lodash/over";
 export default over;

@@ -1,2 +1,2 @@
-import array from 'lodash/array';
+import array from "lodash/array";
 export default array;

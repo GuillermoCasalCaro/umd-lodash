@@ -1,2 +1,2 @@
-import trimEnd from 'lodash/trimEnd';
+import trimEnd from "lodash/trimEnd";
 export default trimEnd;

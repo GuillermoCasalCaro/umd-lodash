@@ -1,2 +1,2 @@
-import gt from 'lodash/gt';
+import gt from "lodash/gt";
 export default gt;

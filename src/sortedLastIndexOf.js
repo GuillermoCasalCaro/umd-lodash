@@ -1,2 +1,2 @@
-import sortedLastIndexOf from 'lodash/sortedLastIndexOf';
+import sortedLastIndexOf from "lodash/sortedLastIndexOf";
 export default sortedLastIndexOf;

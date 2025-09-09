@@ -1,2 +1,2 @@
-import setWith from 'lodash/setWith';
+import setWith from "lodash/setWith";
 export default setWith;

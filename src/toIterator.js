@@ -1,2 +1,2 @@
-import toIterator from 'lodash/toIterator';
+import toIterator from "lodash/toIterator";
 export default toIterator;

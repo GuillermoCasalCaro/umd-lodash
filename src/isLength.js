@@ -1,2 +1,2 @@
-import isLength from 'lodash/isLength';
+import isLength from "lodash/isLength";
 export default isLength;

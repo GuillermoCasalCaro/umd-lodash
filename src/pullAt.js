@@ -1,2 +1,2 @@
-import pullAt from 'lodash/pullAt';
+import pullAt from "lodash/pullAt";
 export default pullAt;

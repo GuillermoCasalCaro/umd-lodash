@@ -1,2 +1,2 @@
-import after from 'lodash/after';
+import after from "lodash/after";
 export default after;

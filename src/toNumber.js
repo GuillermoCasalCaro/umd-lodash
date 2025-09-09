@@ -1,2 +1,2 @@
-import toNumber from 'lodash/toNumber';
+import toNumber from "lodash/toNumber";
 export default toNumber;

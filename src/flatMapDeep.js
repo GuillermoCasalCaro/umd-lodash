@@ -1,2 +1,2 @@
-import flatMapDeep from 'lodash/flatMapDeep';
+import flatMapDeep from "lodash/flatMapDeep";
 export default flatMapDeep;

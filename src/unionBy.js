@@ -1,2 +1,2 @@
-import unionBy from 'lodash/unionBy';
+import unionBy from "lodash/unionBy";
 export default unionBy;

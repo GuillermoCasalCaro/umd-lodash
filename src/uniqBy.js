@@ -1,2 +1,2 @@
-import uniqBy from 'lodash/uniqBy';
+import uniqBy from "lodash/uniqBy";
 export default uniqBy;

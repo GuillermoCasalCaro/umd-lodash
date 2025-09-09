@@ -1,2 +1,2 @@
-import takeRightWhile from 'lodash/takeRightWhile';
+import takeRightWhile from "lodash/takeRightWhile";
 export default takeRightWhile;

@@ -1,2 +1,2 @@
-import isSymbol from 'lodash/isSymbol';
+import isSymbol from "lodash/isSymbol";
 export default isSymbol;

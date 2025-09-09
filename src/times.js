@@ -1,2 +1,2 @@
-import times from 'lodash/times';
+import times from "lodash/times";
 export default times;

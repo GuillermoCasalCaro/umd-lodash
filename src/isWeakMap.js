@@ -1,2 +1,2 @@
-import isWeakMap from 'lodash/isWeakMap';
+import isWeakMap from "lodash/isWeakMap";
 export default isWeakMap;

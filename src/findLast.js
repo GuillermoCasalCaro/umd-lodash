@@ -1,2 +1,2 @@
-import findLast from 'lodash/findLast';
+import findLast from "lodash/findLast";
 export default findLast;

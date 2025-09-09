@@ -1,2 +1,2 @@
-import isObjectLike from 'lodash/isObjectLike';
+import isObjectLike from "lodash/isObjectLike";
 export default isObjectLike;

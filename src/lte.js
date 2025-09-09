@@ -1,2 +1,2 @@
-import lte from 'lodash/lte';
+import lte from "lodash/lte";
 export default lte;

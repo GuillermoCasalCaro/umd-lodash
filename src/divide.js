@@ -1,2 +1,2 @@
-import divide from 'lodash/divide';
+import divide from "lodash/divide";
 export default divide;

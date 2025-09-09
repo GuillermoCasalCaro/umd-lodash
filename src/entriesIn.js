@@ -1,2 +1,2 @@
-import entriesIn from 'lodash/entriesIn';
+import entriesIn from "lodash/entriesIn";
 export default entriesIn;

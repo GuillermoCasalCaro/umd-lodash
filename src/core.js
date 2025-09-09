@@ -1,2 +1,2 @@
-import core from 'lodash/core';
+import core from "lodash/core";
 export default core;

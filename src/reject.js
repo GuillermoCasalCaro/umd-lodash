@@ -1,2 +1,2 @@
-import reject from 'lodash/reject';
+import reject from "lodash/reject";
 export default reject;

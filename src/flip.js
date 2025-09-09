@@ -1,2 +1,2 @@
-import flip from 'lodash/flip';
+import flip from "lodash/flip";
 export default flip;

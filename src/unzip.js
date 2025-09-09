@@ -1,2 +1,2 @@
-import unzip from 'lodash/unzip';
+import unzip from "lodash/unzip";
 export default unzip;

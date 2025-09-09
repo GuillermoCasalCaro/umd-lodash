@@ -1,2 +1,2 @@
-import invokeMap from 'lodash/invokeMap';
+import invokeMap from "lodash/invokeMap";
 export default invokeMap;

@@ -1,2 +1,2 @@
-import reduce from 'lodash/reduce';
+import reduce from "lodash/reduce";
 export default reduce;

@@ -1,2 +1,2 @@
-import pickBy from 'lodash/pickBy';
+import pickBy from "lodash/pickBy";
 export default pickBy;

@@ -1,2 +1,2 @@
-import updateWith from 'lodash/updateWith';
+import updateWith from "lodash/updateWith";
 export default updateWith;

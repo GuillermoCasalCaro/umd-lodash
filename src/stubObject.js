@@ -1,2 +1,2 @@
-import stubObject from 'lodash/stubObject';
+import stubObject from "lodash/stubObject";
 export default stubObject;

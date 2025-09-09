@@ -1,2 +1,2 @@
-import sum from 'lodash/sum';
+import sum from "lodash/sum";
 export default sum;

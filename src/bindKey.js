@@ -1,2 +1,2 @@
-import bindKey from 'lodash/bindKey';
+import bindKey from "lodash/bindKey";
 export default bindKey;

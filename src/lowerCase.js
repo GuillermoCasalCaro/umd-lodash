@@ -1,2 +1,2 @@
-import lowerCase from 'lodash/lowerCase';
+import lowerCase from "lodash/lowerCase";
 export default lowerCase;

@@ -1,2 +1,2 @@
-import orderBy from 'lodash/orderBy';
+import orderBy from "lodash/orderBy";
 export default orderBy;

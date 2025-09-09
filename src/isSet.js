@@ -1,2 +1,2 @@
-import isSet from 'lodash/isSet';
+import isSet from "lodash/isSet";
 export default isSet;

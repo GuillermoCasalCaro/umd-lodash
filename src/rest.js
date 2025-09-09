@@ -1,2 +1,2 @@
-import rest from 'lodash/rest';
+import rest from "lodash/rest";
 export default rest;

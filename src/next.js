@@ -1,2 +1,2 @@
-import next from 'lodash/next';
+import next from "lodash/next";
 export default next;

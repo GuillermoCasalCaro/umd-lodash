@@ -1,2 +1,2 @@
-import ceil from 'lodash/ceil';
+import ceil from "lodash/ceil";
 export default ceil;

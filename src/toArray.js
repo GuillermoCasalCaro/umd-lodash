@@ -1,2 +1,2 @@
-import toArray from 'lodash/toArray';
+import toArray from "lodash/toArray";
 export default toArray;

@@ -1,2 +1,2 @@
-import extend from 'lodash/extend';
+import extend from "lodash/extend";
 export default extend;

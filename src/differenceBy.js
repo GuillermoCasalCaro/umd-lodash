@@ -1,2 +1,2 @@
-import differenceBy from 'lodash/differenceBy';
+import differenceBy from "lodash/differenceBy";
 export default differenceBy;

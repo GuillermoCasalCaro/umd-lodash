@@ -1,2 +1,2 @@
-import groupBy from 'lodash/groupBy';
+import groupBy from "lodash/groupBy";
 export default groupBy;

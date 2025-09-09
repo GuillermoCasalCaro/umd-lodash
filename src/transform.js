@@ -1,2 +1,2 @@
-import transform from 'lodash/transform';
+import transform from "lodash/transform";
 export default transform;

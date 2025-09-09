@@ -1,2 +1,2 @@
-import max from 'lodash/max';
+import max from "lodash/max";
 export default max;

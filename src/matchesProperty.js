@@ -1,2 +1,2 @@
-import matchesProperty from 'lodash/matchesProperty';
+import matchesProperty from "lodash/matchesProperty";
 export default matchesProperty;

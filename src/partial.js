@@ -1,2 +1,2 @@
-import partial from 'lodash/partial';
+import partial from "lodash/partial";
 export default partial;

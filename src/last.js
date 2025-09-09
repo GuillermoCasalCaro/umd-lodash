@@ -1,2 +1,2 @@
-import last from 'lodash/last';
+import last from "lodash/last";
 export default last;

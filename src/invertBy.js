@@ -1,2 +1,2 @@
-import invertBy from 'lodash/invertBy';
+import invertBy from "lodash/invertBy";
 export default invertBy;

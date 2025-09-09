@@ -1,2 +1,2 @@
-import isWeakSet from 'lodash/isWeakSet';
+import isWeakSet from "lodash/isWeakSet";
 export default isWeakSet;

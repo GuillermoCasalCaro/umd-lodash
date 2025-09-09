@@ -1,2 +1,2 @@
-import isArray from 'lodash/isArray';
+import isArray from "lodash/isArray";
 export default isArray;

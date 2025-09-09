@@ -1,2 +1,2 @@
-import commit from 'lodash/commit';
+import commit from "lodash/commit";
 export default commit;

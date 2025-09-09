@@ -1,2 +1,2 @@
-import thru from 'lodash/thru';
+import thru from "lodash/thru";
 export default thru;

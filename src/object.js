@@ -1,2 +1,2 @@
-import object from 'lodash/object';
+import object from "lodash/object";
 export default object;

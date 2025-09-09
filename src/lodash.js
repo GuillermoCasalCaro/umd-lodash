@@ -1,2 +1,2 @@
-import lodash from 'lodash/lodash';
+import lodash from "lodash/lodash";
 export default lodash;

@@ -1,2 +1,2 @@
-import fp from 'lodash/fp';
+import fp from "lodash/fp";
 export default fp;

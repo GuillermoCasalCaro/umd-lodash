@@ -1,2 +1,2 @@
-import slice from 'lodash/slice';
+import slice from "lodash/slice";
 export default slice;

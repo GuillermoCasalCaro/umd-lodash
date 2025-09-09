@@ -1,2 +1,2 @@
-import result from 'lodash/result';
+import result from "lodash/result";
 export default result;

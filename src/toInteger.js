@@ -1,2 +1,2 @@
-import toInteger from 'lodash/toInteger';
+import toInteger from "lodash/toInteger";
 export default toInteger;

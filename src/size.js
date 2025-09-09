@@ -1,2 +1,2 @@
-import size from 'lodash/size';
+import size from "lodash/size";
 export default size;

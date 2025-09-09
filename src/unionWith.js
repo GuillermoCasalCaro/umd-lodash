@@ -1,2 +1,2 @@
-import unionWith from 'lodash/unionWith';
+import unionWith from "lodash/unionWith";
 export default unionWith;

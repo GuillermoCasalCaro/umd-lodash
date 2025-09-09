@@ -1,2 +1,2 @@
-import curryRight from 'lodash/curryRight';
+import curryRight from "lodash/curryRight";
 export default curryRight;

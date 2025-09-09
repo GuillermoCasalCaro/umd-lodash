@@ -1,2 +1,2 @@
-import isMatchWith from 'lodash/isMatchWith';
+import isMatchWith from "lodash/isMatchWith";
 export default isMatchWith;

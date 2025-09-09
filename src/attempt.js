@@ -1,2 +1,2 @@
-import attempt from 'lodash/attempt';
+import attempt from "lodash/attempt";
 export default attempt;

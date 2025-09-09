@@ -1,2 +1,2 @@
-import pullAllWith from 'lodash/pullAllWith';
+import pullAllWith from "lodash/pullAllWith";
 export default pullAllWith;

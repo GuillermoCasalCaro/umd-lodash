@@ -1,2 +1,2 @@
-import isNumber from 'lodash/isNumber';
+import isNumber from "lodash/isNumber";
 export default isNumber;

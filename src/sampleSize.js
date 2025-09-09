@@ -1,2 +1,2 @@
-import sampleSize from 'lodash/sampleSize';
+import sampleSize from "lodash/sampleSize";
 export default sampleSize;

@@ -1,2 +1,2 @@
-import without from 'lodash/without';
+import without from "lodash/without";
 export default without;

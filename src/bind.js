@@ -1,2 +1,2 @@
-import bind from 'lodash/bind';
+import bind from "lodash/bind";
 export default bind;

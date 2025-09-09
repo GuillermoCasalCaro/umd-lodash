@@ -1,2 +1,2 @@
-import wrapperLodash from 'lodash/wrapperLodash';
+import wrapperLodash from "lodash/wrapperLodash";
 export default wrapperLodash;

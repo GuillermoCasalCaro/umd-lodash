@@ -1,2 +1,2 @@
-import first from 'lodash/first';
+import first from "lodash/first";
 export default first;

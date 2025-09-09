@@ -1,2 +1,2 @@
-import keyBy from 'lodash/keyBy';
+import keyBy from "lodash/keyBy";
 export default keyBy;

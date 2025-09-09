@@ -1,2 +1,2 @@
-import isFinite from 'lodash/isFinite';
+import isFinite from "lodash/isFinite";
 export default isFinite;

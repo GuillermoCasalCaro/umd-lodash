@@ -1,2 +1,2 @@
-import multiply from 'lodash/multiply';
+import multiply from "lodash/multiply";
 export default multiply;

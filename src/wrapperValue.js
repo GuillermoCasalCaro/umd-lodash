@@ -1,2 +1,2 @@
-import wrapperValue from 'lodash/wrapperValue';
+import wrapperValue from "lodash/wrapperValue";
 export default wrapperValue;

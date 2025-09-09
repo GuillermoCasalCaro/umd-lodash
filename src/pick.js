@@ -1,2 +1,2 @@
-import pick from 'lodash/pick';
+import pick from "lodash/pick";
 export default pick;

@@ -1,2 +1,2 @@
-import lang from 'lodash/lang';
+import lang from "lodash/lang";
 export default lang;

@@ -1,2 +1,2 @@
-import conformsTo from 'lodash/conformsTo';
+import conformsTo from "lodash/conformsTo";
 export default conformsTo;

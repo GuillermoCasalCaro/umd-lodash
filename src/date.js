@@ -1,2 +1,2 @@
-import date from 'lodash/date';
+import date from "lodash/date";
 export default date;

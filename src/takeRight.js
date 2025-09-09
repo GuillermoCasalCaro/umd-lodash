@@ -1,2 +1,2 @@
-import takeRight from 'lodash/takeRight';
+import takeRight from "lodash/takeRight";
 export default takeRight;

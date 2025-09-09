@@ -1,2 +1,2 @@
-import toPlainObject from 'lodash/toPlainObject';
+import toPlainObject from "lodash/toPlainObject";
 export default toPlainObject;

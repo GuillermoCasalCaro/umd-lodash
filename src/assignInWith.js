@@ -1,2 +1,2 @@
-import assignInWith from 'lodash/assignInWith';
+import assignInWith from "lodash/assignInWith";
 export default assignInWith;

@@ -1,2 +1,2 @@
-import isError from 'lodash/isError';
+import isError from "lodash/isError";
 export default isError;

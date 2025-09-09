@@ -1,2 +1,2 @@
-import split from 'lodash/split';
+import split from "lodash/split";
 export default split;

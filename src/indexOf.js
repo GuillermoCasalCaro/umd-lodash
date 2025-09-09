@@ -1,2 +1,2 @@
-import indexOf from 'lodash/indexOf';
+import indexOf from "lodash/indexOf";
 export default indexOf;

@@ -1,2 +1,2 @@
-import cond from 'lodash/cond';
+import cond from "lodash/cond";
 export default cond;

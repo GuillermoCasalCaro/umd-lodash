@@ -1,2 +1,2 @@
-import unset from 'lodash/unset';
+import unset from "lodash/unset";
 export default unset;

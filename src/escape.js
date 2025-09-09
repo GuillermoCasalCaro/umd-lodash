@@ -1,2 +1,2 @@
-import escape from 'lodash/escape';
+import escape from "lodash/escape";
 export default escape;

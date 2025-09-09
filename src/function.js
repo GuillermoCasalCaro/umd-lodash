@@ -1,2 +1,2 @@
-import function from 'lodash/function';
+import function from "lodash/function";
 export default function;

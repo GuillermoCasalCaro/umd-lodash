@@ -1,2 +1,2 @@
-import difference from 'lodash/difference';
+import difference from "lodash/difference";
 export default difference;

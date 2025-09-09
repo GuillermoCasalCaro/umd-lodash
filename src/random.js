@@ -1,2 +1,2 @@
-import random from 'lodash/random';
+import random from "lodash/random";
 export default random;

@@ -1,2 +1,2 @@
-import isString from 'lodash/isString';
+import isString from "lodash/isString";
 export default isString;

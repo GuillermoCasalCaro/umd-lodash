@@ -1,2 +1,2 @@
-import concat from 'lodash/concat';
+import concat from "lodash/concat";
 export default concat;

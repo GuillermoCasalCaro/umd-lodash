@@ -1,2 +1,2 @@
-import padEnd from 'lodash/padEnd';
+import padEnd from "lodash/padEnd";
 export default padEnd;

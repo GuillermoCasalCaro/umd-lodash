@@ -1,2 +1,2 @@
-import head from 'lodash/head';
+import head from "lodash/head";
 export default head;

@@ -1,2 +1,2 @@
-import defer from 'lodash/defer';
+import defer from "lodash/defer";
 export default defer;

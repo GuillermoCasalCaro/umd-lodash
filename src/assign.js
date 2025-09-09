@@ -1,2 +1,2 @@
-import assign from 'lodash/assign';
+import assign from "lodash/assign";
 export default assign;

@@ -1,2 +1,2 @@
-import keysIn from 'lodash/keysIn';
+import keysIn from "lodash/keysIn";
 export default keysIn;

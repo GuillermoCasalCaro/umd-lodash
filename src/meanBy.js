@@ -1,2 +1,2 @@
-import meanBy from 'lodash/meanBy';
+import meanBy from "lodash/meanBy";
 export default meanBy;

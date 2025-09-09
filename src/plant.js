@@ -1,2 +1,2 @@
-import plant from 'lodash/plant';
+import plant from "lodash/plant";
 export default plant;

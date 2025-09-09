@@ -1,2 +1,2 @@
-import findKey from 'lodash/findKey';
+import findKey from "lodash/findKey";
 export default findKey;

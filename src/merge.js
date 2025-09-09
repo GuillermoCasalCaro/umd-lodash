@@ -1,2 +1,2 @@
-import merge from 'lodash/merge';
+import merge from "lodash/merge";
 export default merge;

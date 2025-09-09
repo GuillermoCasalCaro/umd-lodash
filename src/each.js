@@ -1,2 +1,2 @@
-import each from 'lodash/each';
+import each from "lodash/each";
 export default each;

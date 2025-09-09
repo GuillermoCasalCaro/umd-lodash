@@ -1,2 +1,2 @@
-import overEvery from 'lodash/overEvery';
+import overEvery from "lodash/overEvery";
 export default overEvery;

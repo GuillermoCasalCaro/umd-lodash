@@ -1,2 +1,2 @@
-import shuffle from 'lodash/shuffle';
+import shuffle from "lodash/shuffle";
 export default shuffle;

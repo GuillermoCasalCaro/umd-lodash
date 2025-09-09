@@ -1,2 +1,2 @@
-import property from 'lodash/property';
+import property from "lodash/property";
 export default property;

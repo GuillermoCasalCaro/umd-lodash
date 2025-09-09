@@ -1,2 +1,2 @@
-import wrapperChain from 'lodash/wrapperChain';
+import wrapperChain from "lodash/wrapperChain";
 export default wrapperChain;

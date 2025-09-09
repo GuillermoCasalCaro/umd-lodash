@@ -1,2 +1,2 @@
-import isNative from 'lodash/isNative';
+import isNative from "lodash/isNative";
 export default isNative;

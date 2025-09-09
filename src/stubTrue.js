@@ -1,2 +1,2 @@
-import stubTrue from 'lodash/stubTrue';
+import stubTrue from "lodash/stubTrue";
 export default stubTrue;

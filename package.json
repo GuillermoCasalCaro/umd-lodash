@@ -6,6 +6,7 @@
     "author": "Guillermo Casal Caro",
     "license": "MIT",
     "scripts": {
+        "generate": "node scripts/generate-lodash-entries.js",
         "build": "webpack --config webpack.config.js --mode production"
     },
     "dependencies": {

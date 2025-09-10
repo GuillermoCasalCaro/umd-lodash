@@ -14,7 +14,7 @@ const lodashFnsToExternalize = ["uniq", "flatten"];
 const externals = Object.fromEntries(
     lodashFnsToExternalize.map((fn) => [
         `lodash/${fn}`,
-        `https://cdn.jsdelivr.net/npm/umd-lodash@1.0.6/dist/${fn}.umd.js`,
+        `https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/${fn}.umd.js`,
     ])
 );
 
@@ -26,7 +26,7 @@ module.exports = {
 };
 ```
 
-**Tip:** You can use an alias (e.g., `npm/umd-lodash@1.0.6/dist/${fn}.umd.js`) and resolve it to the CDN using a SystemJS import map in your `index.html`:
+**Tip:** You can use an alias (e.g., `npm/umd-lodash@1.1.0/dist/${fn}.umd.js`) and resolve it to the CDN using a SystemJS import map in your `index.html`:
 
 ```html
 <script type="systemjs-importmap">
@@ -45,7 +45,7 @@ This allows you to reference modules using the `npm/` prefix, which SystemJS wil
 You can use any Lodash function by adding its script and using it globally as `umd_lodash_<functionName>`.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/umd-lodash@1.0.6/dist/chunk.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/chunk.umd.js"></script>
 <script>
     const result = umd_lodash_chunk([1, 2, 3, 4, 5], 2);
     console.log(result); // [[1,2],[3,4],[5]]
@@ -58,7 +58,7 @@ You can use any Lodash function by adding its script and using it globally as `u
 <script src="https://cdn.jsdelivr.net/npm/systemjs@6.15.1/dist/system.min.js"></script>
 <script>
     System.import(
-        "https://cdn.jsdelivr.net/npm/umd-lodash@1.0.6/dist/camelCase.umd.js"
+        "https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/camelCase.umd.js"
     ).then(({ default: camelCase }) => {
         console.log(camelCase("hello world")); // "helloWorld"
     });

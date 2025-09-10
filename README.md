@@ -14,7 +14,7 @@ const lodashFnsToExternalize = ["uniq", "flatten"];
 const externals = Object.fromEntries(
     lodashFnsToExternalize.map((fn) => [
         `lodash/${fn}`,
-        `https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/${fn}.umd.js`,
+        `https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/${fn}.min.js`,
     ])
 );
 
@@ -26,7 +26,7 @@ module.exports = {
 };
 ```
 
-**Tip:** You can use an alias (e.g., `npm/umd-lodash@1.1.0/dist/${fn}.umd.js`) and resolve it to the CDN using a SystemJS import map in your `index.html`:
+**Tip:** You can use an alias (e.g., `npm/umd-lodash@1.1.0/dist/${fn}.min.js`) and resolve it to the CDN using a SystemJS import map in your `index.html`:
 
 ```html
 <script type="systemjs-importmap">
@@ -45,10 +45,10 @@ This allows you to reference modules using the `npm/` prefix, which SystemJS wil
 You can use any Lodash function by adding its script. Each UMD build exposes the function as a property of the global `_` object (e.g., `_.noop`, `_.chunk`).
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/noop.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/chunk.min.js"></script>
 <script>
-    // _.noop is now available globally
-    console.log(_.noop()); // undefined
+    // _.chunk is now available globally
+    console.log(_.chunk([1, 2, 3, 4, 5], 2)); // [[1, 2], [3, 4], [5]]
 </script>
 ```
 
@@ -58,12 +58,13 @@ You can use any Lodash function by adding its script. Each UMD build exposes the
 <script src="https://cdn.jsdelivr.net/npm/systemjs@6.15.1/dist/system.min.js"></script>
 <script>
     System.import(
-        "https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/noop.umd.js"
-    ).then(() => {
-        // The global '_' object now has 'noop'
-        console.log(_.noop()); // undefined
-    });
-</script>
+        "https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/debounce.min.js"
+        ).then(() => {
+        // The global '_' object now has 'debounce'
+        const debounced = _.debounce(() => console.log('Called!'), 200);
+        debounced();
+        });
+    </script>
 ```
 
 ## 📂 Available Functions
@@ -72,13 +73,13 @@ Every Lodash function (except internals like `_base*`) is exported as an individ
 
 Example paths:
 
--   `dist/assign.umd.js`
--   `dist/chunk.umd.js`
--   `dist/camelCase.umd.js`
--   `dist/uniq.umd.js`
--   `dist/flatten.umd.js`
--   `dist/debounce.umd.js`
--   `dist/noop.umd.js`
+-   `dist/assign.min.js`
+-   `dist/chunk.min.js`
+-   `dist/camelCase.min.js`
+-   `dist/uniq.min.js`
+-   `dist/flatten.min.js`
+-   `dist/debounce.min.js`
+-   `dist/noop.min.js`
 -   ...
 
 ## 📜 License

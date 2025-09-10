@@ -1,7 +1,7 @@
 /**
  * @license
  * Lodash (Custom Build) <https://lodash.com/>
- * Build: `lodash include="isObject" exports="umd" --output C:\Users\GCASAL\source\repos\umd-lodash\dist\isObject.js`
+ * Build: `lodash include="isObject" exports="umd" --output .\dist\isObject.js`
  * Copyright JS Foundation and other contributors <https://js.foundation/>
  * Released under MIT license <https://lodash.com/license>
  * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>

@@ -1,7 +1,7 @@
 /**
  * @license
  * Lodash (Custom Build) <https://lodash.com/>
- * Build: `lodash include="findLast" exports="umd" --output C:\Users\GCASAL\source\repos\umd-lodash\dist\findLast.js`
+ * Build: `lodash include="findLast" exports="umd" --output .\dist\findLast.js`
  * Copyright JS Foundation and other contributors <https://js.foundation/>
  * Released under MIT license <https://lodash.com/license>
  * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>

@@ -59,27 +59,31 @@ You can use any Lodash function by adding its script. Each UMD build exposes the
 <script>
     System.import(
         "https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/debounce.min.js"
-        ).then(() => {
+    ).then(() => {
         // The global '_' object now has 'debounce'
-        const debounced = _.debounce(() => console.log('Called!'), 200);
+        const debounced = _.debounce(() => console.log("Called!"), 200);
         debounced();
-        });
-    </script>
+    });
+</script>
 ```
 
 ## 📂 Available Functions
 
 Every Lodash function (except internals like `_base*`) is exported as an individual UMD build under `dist/`.
 
+### Non-Minified Builds
+
+For every Lodash function, a non-minified build is also available at `dist/<function>.js` in addition to the minified version. Use the non-minified files for easier debugging or development.
+
 Example paths:
 
--   `dist/assign.min.js`
--   `dist/chunk.min.js`
--   `dist/camelCase.min.js`
--   `dist/uniq.min.js`
--   `dist/flatten.min.js`
--   `dist/debounce.min.js`
--   `dist/noop.min.js`
+-   `dist/assign.min.js` and `dist/assign.js`
+-   `dist/chunk.min.js` and `dist/chunk.js`
+-   `dist/camelCase.min.js` and `dist/camelCase.js`
+-   `dist/uniq.min.js` and `dist/uniq.js`
+-   `dist/flatten.min.js` and `dist/flatten.js`
+-   `dist/debounce.min.js` and `dist/debounce.js`
+-   `dist/noop.min.js` and `dist/noop.js`
 -   ...
 
 ## 📜 License

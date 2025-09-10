@@ -42,13 +42,13 @@ This allows you to reference modules using the `npm/` prefix, which SystemJS wil
 
 ## 🌐 Usage via jsDelivr CDN
 
-You can use any Lodash function by adding its script and using it globally as `umd_lodash_<functionName>`.
+You can use any Lodash function by adding its script. Each UMD build exposes the function as a property of the global `_` object (e.g., `_.noop`, `_.chunk`).
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/chunk.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/noop.umd.js"></script>
 <script>
-    const result = umd_lodash_chunk([1, 2, 3, 4, 5], 2);
-    console.log(result); // [[1,2],[3,4],[5]]
+    // _.noop is now available globally
+    console.log(_.noop()); // undefined
 </script>
 ```
 
@@ -58,21 +58,12 @@ You can use any Lodash function by adding its script and using it globally as `u
 <script src="https://cdn.jsdelivr.net/npm/systemjs@6.15.1/dist/system.min.js"></script>
 <script>
     System.import(
-        "https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/camelCase.umd.js"
-    ).then(({ default: camelCase }) => {
-        console.log(camelCase("hello world")); // "helloWorld"
+        "https://cdn.jsdelivr.net/npm/umd-lodash@1.1.0/dist/noop.umd.js"
+    ).then(() => {
+        // The global '_' object now has 'noop'
+        console.log(_.noop()); // undefined
     });
 </script>
-```
-
-## 📦 Usage with ES Modules (CDN)
-
-You can also import Lodash functions as ES modules from the CDN:
-
-```js
-import debounce from "https://cdn.jsdelivr.net/npm/umd-lodash@1.0.6/dist/debounce.umd.js";
-
-debounce(() => console.log("Debounced!"), 200);
 ```
 
 ## 📂 Available Functions
@@ -87,6 +78,7 @@ Example paths:
 -   `dist/uniq.umd.js`
 -   `dist/flatten.umd.js`
 -   `dist/debounce.umd.js`
+-   `dist/noop.umd.js`
 -   ...
 
 ## 📜 License

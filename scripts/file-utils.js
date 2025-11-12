@@ -1,10 +1,11 @@
 const fs = require("fs");
 const path = require("path");
 const CONFIG = require("./config");
+const { logger } = require("./logger");
 
 function validateLodashExists() {
     if (!fs.existsSync(CONFIG.LODASH_DIR)) {
-        console.error('Lodash directory does not exist. Please run "npm install" first.');
+        logger.error('Lodash directory does not exist. Please run "npm install" first.');
         process.exit(1);
     }
 }
@@ -50,7 +51,7 @@ function getFunctionFiles(targetFunction) {
     });
     
     if (filteredFiles.length === 0) {
-        console.error(`Function '${targetFunction}' not found in lodash directory.`);
+        logger.error(`Function '${targetFunction}' not found in lodash directory.`);
         process.exit(1);
     }
     

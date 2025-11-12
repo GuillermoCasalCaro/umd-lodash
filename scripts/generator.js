@@ -3,6 +3,7 @@ const path = require("path");
 const { execSync } = require("child_process");
 const CONFIG = require("./config");
 const { modifyUMDWrapper } = require("./umd-transformer");
+const { logger, colorize } = require("./logger");
 
 function generateFunction(funcName, index, total) {
     const outputPath = path.join(CONFIG.DIST_DIR, `${funcName}.js`);
@@ -18,11 +19,15 @@ function generateFunction(funcName, index, total) {
             modifyUMDWrapper(minOutputPath);
         }
         
-        const minSuffix = fs.existsSync(minOutputPath) ? ` and ${minOutputPath}` : '';
-        console.log(`[${index}/${total}] Generated and modified ${outputPath}${minSuffix}`);
+        const minSuffix = fs.existsSync(minOutputPath) ? colorize(` and ${path.basename(minOutputPath)}`, 'dim') : '';
+        const progress = colorize(`[${index}/${total}]`, 'magenta');
+        const filename = colorize(path.basename(outputPath), 'bright');
+        logger.success(`${progress} Generated and modified ${filename}${minSuffix}`);
         
     } catch (error) {
-        console.error(`[${index}/${total}] Failed to generate ${outputPath}:`, error.message);
+        const progress = colorize(`[${index}/${total}]`, 'magenta');
+        const filename = colorize(path.basename(outputPath), 'bright');
+        logger.error(`${progress} Failed to generate ${filename}: ${error.message}`);
     }
 }
 

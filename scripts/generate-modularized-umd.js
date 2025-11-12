@@ -53,7 +53,9 @@ functionFiles.forEach((file) => {
     ) {
         const funcName = path.basename(file, ".js");
         const outputPath = path.join(distDir, `${funcName}.js`);
-        const cmd = `npx lodash-cli include=${funcName} exports=umd --output "${outputPath}"`;
+        const exports = "umd";
+        const iife = `!function(window,undefined){%output%}(this);window._=Object.assign(window._||{},_);`;
+        const cmd = `npx lodash-cli include=${funcName} exports=${exports} iife="${iife}" --output "${outputPath}"`;
         try {
             execSync(cmd, { stdio: "inherit" });
             console.log(

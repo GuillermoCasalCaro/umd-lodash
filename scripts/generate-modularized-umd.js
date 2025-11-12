@@ -44,21 +44,54 @@ function modifyUMDWrapper(filePath) {
         '* Build: `lodash include="$1" exports="umd" --output .\\dist\\$1.js`'
     );
     
-    // Replace the UMD wrapper patterns
-    content = content.replace(
-        /root\.\_ = lodash;/g,
-        'root._ = Object.assign(root._ || {}, lodash);'
-    );
+    // Check if this is a minified file
+    const isMinified = filePath.endsWith('.min.js');
     
-    content = content.replace(
-        /\(freeModule\.exports = lodash\)\.\_ = lodash;/g,
-        '(freeModule.exports = Object.assign(freeModule.exports || {}, lodash))._ = freeModule.exports;'
-    );
-    
-    content = content.replace(
-        /freeExports\.\_ = lodash;/g,
-        'freeExports._ = freeModule.exports;'
-    );
+    if (isMinified) {
+        // Handle minified UMD patterns
+        // Pattern for: O._=e (where O is root variable and e is lodash variable)
+        // Look for the pattern at the end: variable._=variable_name
+        content = content.replace(
+            /([A-Za-z_$][A-Za-z0-9_$]*)\._=([A-Za-z_$][A-Za-z0-9_$]*)\}\)\.call\(this\);$/,
+            '$1._=Object.assign($1._||{},$2)}).call(this);'
+        );
+        
+        // Also handle the AMD/CommonJS parts in minified code
+        // Pattern: (F.exports=e)._=e becomes (F.exports=Object.assign(F.exports||{},e))._=F.exports
+        content = content.replace(
+            /\(([A-Za-z_$][A-Za-z0-9_$]*)\.exports=([A-Za-z_$][A-Za-z0-9_$]*)\)\._=\2/g,
+            '($1.exports=Object.assign($1.exports||{},$2))._=$1.exports'
+        );
+        
+        // Pattern: x._=e becomes x._=F.exports (where x is freeExports and F is freeModule)
+        content = content.replace(
+            /([A-Za-z_$][A-Za-z0-9_$]*)\._=([A-Za-z_$][A-Za-z0-9_$]*):([A-Za-z_$][A-Za-z0-9_$]*)\._=\2/g,
+            '$1._=$3.exports:$3._=$3.exports'
+        );
+        
+        // Handle the AMD define case: O._=e, define(function(){return e})
+        content = content.replace(
+            /([A-Za-z_$][A-Za-z0-9_$]*)\._=([A-Za-z_$][A-Za-z0-9_$]*), define\(function\(\)\{return \2\}\)/g,
+            '$1._=Object.assign($1._||{},$2), define(function(){return $2})'
+        );
+        
+    } else {
+        // Handle non-minified UMD wrapper patterns
+        content = content.replace(
+            /root\.\_ = lodash;/g,
+            'root._ = Object.assign(root._ || {}, lodash);'
+        );
+        
+        content = content.replace(
+            /\(freeModule\.exports = lodash\)\.\_ = lodash;/g,
+            '(freeModule.exports = Object.assign(freeModule.exports || {}, lodash))._ = freeModule.exports;'
+        );
+        
+        content = content.replace(
+            /freeExports\.\_ = lodash;/g,
+            'freeExports._ = freeModule.exports;'
+        );
+    }
     
     fs.writeFileSync(filePath, content, 'utf8');
 }
@@ -110,8 +143,14 @@ functionFiles.forEach((file) => {
             // Post-process the generated file to modify UMD wrapper
             modifyUMDWrapper(outputPath);
             
+            // Also process the minified version if it exists
+            const minOutputPath = outputPath.replace('.js', '.min.js');
+            if (fs.existsSync(minOutputPath)) {
+                modifyUMDWrapper(minOutputPath);
+            }
+            
             console.log(
-                `[${i}/${functionFiles.length}] Generated and modified ${outputPath}`
+                `[${i}/${functionFiles.length}] Generated and modified ${outputPath}${fs.existsSync(minOutputPath) ? ' and ' + minOutputPath : ''}`
             );
         } catch (err) {
             console.error(

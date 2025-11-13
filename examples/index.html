@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Lodash UMD Demo</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="../dist/chunk.min.js"></script>
+    <script src="../dist/shuffle.min.js"></script>
+</head>
+
+<body>
+    <h1>Lodash UMD Sandbox</h1>
+
+    <button id="shuffleBtn">Shuffle Numbers</button>
+    <button id="chunkBtn">Chunk Numbers</button>
+
+    <div id="result"></div>
+
+    <script>
+        const numbers = [1, 2, 3, 4, 5, 6, 7];
+        const resultEl = document.getElementById("result");
+        const shuffleBtn = document.getElementById("shuffleBtn");
+        const chunkBtn = document.getElementById("chunkBtn");
+        let shuffled = null;
+
+        function showShuffle() {
+            shuffled = _.shuffle(numbers);
+            resultEl.textContent = `🎲 Shuffled: ${JSON.stringify(shuffled)}`;
+        }
+
+        function showChunk() {
+            const chunked = _.chunk(shuffled || numbers, 2);
+            resultEl.textContent = `📦 Chunked: ${JSON.stringify(chunked)}`;
+        }
+
+        shuffleBtn.addEventListener("click", showShuffle);
+        chunkBtn.addEventListener("click", showChunk);
+
+        showShuffle();
+    </script>
+</body>
+
+</html>

@@ -24,7 +24,8 @@
     "license": "MIT",
     "scripts": {
         "generate": "node scripts/generate-modularized-umd.js",
-        "generate:one": "node scripts/generate-modularized-umd.js chunk"
+        "generate:one": "node scripts/generate-modularized-umd.js chunk",
+        "publish": "npm publish"
     },
     "dependencies": {
         "lodash": "4.17.21"

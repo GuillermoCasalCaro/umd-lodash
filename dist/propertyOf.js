@@ -1224,7 +1224,7 @@
     // loaded by a script tag in the presence of an AMD loader.
     // See http://requirejs.org/docs/errors.html#mismatch for more details.
     // Use `_.noConflict` to remove Lodash from the global object.
-    root._ = lodash;
+    root._ = Object.assign(root._ || {}, lodash);
 
     // Define as an anonymous module so, through path mapping, it can be
     // referenced as the "underscore" module.
@@ -1235,12 +1235,12 @@
   // Check for `exports` after `define` in case a build optimizer adds it.
   else if (freeModule) {
     // Export for Node.js.
-    (freeModule.exports = lodash)._ = lodash;
+    (freeModule.exports = Object.assign(freeModule.exports || {}, lodash))._ = freeModule.exports;
     // Export for CommonJS support.
-    freeExports._ = lodash;
+    freeExports._ = freeModule.exports;
   }
   else {
     // Export to the global object.
-    root._ = lodash;
+    root._ = Object.assign(root._ || {}, lodash);
   }
 }.call(this));
